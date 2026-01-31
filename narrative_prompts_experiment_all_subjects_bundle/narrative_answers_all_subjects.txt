@@ -1,0 +1,2307 @@
+Ground truth — Subject 108 (t=50)
+Prices: PapayaTech=$5.917160, AxolotlWorks=$1.285347, QuipuQuantum=$4.237288
+True spend (raw): PapayaTech=$50.887574, AxolotlWorks=$11.568123, QuipuQuantum=$36.864407
+Cash left (raw): $0.679896
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 50.89,
+  "AxolotlWorks": 11.57,
+  "QuipuQuantum": 36.86,
+  "Cash": 0.68
+}
+
+====================================================================================================
+
+Ground truth — Subject 109 (t=50)
+Prices: PapayaTech=$1.855288, AxolotlWorks=$4.098361, QuipuQuantum=$1.607717
+True spend (raw): PapayaTech=$24.304267, AxolotlWorks=$54.098361, QuipuQuantum=$21.061093
+Cash left (raw): $0.536279
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 24.3,
+  "AxolotlWorks": 54.1,
+  "QuipuQuantum": 21.06,
+  "Cash": 0.54
+}
+
+====================================================================================================
+
+Ground truth — Subject 110 (t=50)
+Prices: PapayaTech=$1.018330, AxolotlWorks=$6.622517, QuipuQuantum=$3.448276
+True spend (raw): PapayaTech=$16.802444, AxolotlWorks=$33.774834, QuipuQuantum=$49.310345
+Cash left (raw): $0.112377
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 16.8,
+  "AxolotlWorks": 33.77,
+  "QuipuQuantum": 49.31,
+  "Cash": 0.12
+}
+
+====================================================================================================
+
+Ground truth — Subject 111 (t=50)
+Prices: PapayaTech=$1.233046, AxolotlWorks=$1.298701, QuipuQuantum=$2.267574
+True spend (raw): PapayaTech=$30.826141, AxolotlWorks=$43.636364, QuipuQuantum=$25.396825
+Cash left (raw): $0.140670
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 30.83,
+  "AxolotlWorks": 43.64,
+  "QuipuQuantum": 25.4,
+  "Cash": 0.13
+}
+
+====================================================================================================
+
+Ground truth — Subject 112 (t=50)
+Prices: PapayaTech=$1.027749, AxolotlWorks=$1.642036, QuipuQuantum=$1.945525
+True spend (raw): PapayaTech=$42.137718, AxolotlWorks=$18.719212, QuipuQuantum=$38.910506
+Cash left (raw): $0.232564
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 42.14,
+  "AxolotlWorks": 18.72,
+  "QuipuQuantum": 38.91,
+  "Cash": 0.23
+}
+
+====================================================================================================
+
+Ground truth — Subject 117 (t=50)
+Prices: PapayaTech=$1.085776, AxolotlWorks=$1.956947, QuipuQuantum=$2.222222
+True spend (raw): PapayaTech=$30.618893, AxolotlWorks=$29.745597, QuipuQuantum=$39.333333
+Cash left (raw): $0.302177
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 30.62,
+  "AxolotlWorks": 29.75,
+  "QuipuQuantum": 39.33,
+  "Cash": 0.3
+}
+
+====================================================================================================
+
+Ground truth — Subject 121 (t=50)
+Prices: PapayaTech=$1.795332, AxolotlWorks=$2.597403, QuipuQuantum=$1.007049
+True spend (raw): PapayaTech=$5.026930, AxolotlWorks=$3.636364, QuipuQuantum=$90.936556
+Cash left (raw): $0.400151
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 5.03,
+  "AxolotlWorks": 3.64,
+  "QuipuQuantum": 90.94,
+  "Cash": 0.39
+}
+
+====================================================================================================
+
+Ground truth — Subject 124 (t=50)
+Prices: PapayaTech=$1.582278, AxolotlWorks=$1.709402, QuipuQuantum=$1.584786
+True spend (raw): PapayaTech=$31.645570, AxolotlWorks=$34.700855, QuipuQuantum=$33.597464
+Cash left (raw): $0.056111
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 31.65,
+  "AxolotlWorks": 34.7,
+  "QuipuQuantum": 33.6,
+  "Cash": 0.05
+}
+
+====================================================================================================
+
+Ground truth — Subject 127 (t=50)
+Prices: PapayaTech=$1.872659, AxolotlWorks=$7.936508, QuipuQuantum=$4.016064
+True spend (raw): PapayaTech=$50.000000, AxolotlWorks=$15.873016, QuipuQuantum=$33.333333
+Cash left (raw): $0.793651
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 50.0,
+  "AxolotlWorks": 15.87,
+  "QuipuQuantum": 33.33,
+  "Cash": 0.8
+}
+
+====================================================================================================
+
+Ground truth — Subject 128 (t=50)
+Prices: PapayaTech=$1.259446, AxolotlWorks=$1.223990, QuipuQuantum=$1.024590
+True spend (raw): PapayaTech=$35.894207, AxolotlWorks=$34.516524, QuipuQuantum=$29.303279
+Cash left (raw): $0.285991
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 35.89,
+  "AxolotlWorks": 34.52,
+  "QuipuQuantum": 29.3,
+  "Cash": 0.29
+}
+
+====================================================================================================
+
+Ground truth — Subject 129 (t=50)
+Prices: PapayaTech=$1.326260, AxolotlWorks=$8.000000, QuipuQuantum=$1.004016
+True spend (raw): PapayaTech=$12.732095, AxolotlWorks=$76.800000, QuipuQuantum=$9.738956
+Cash left (raw): $0.728949
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 12.73,
+  "AxolotlWorks": 76.8,
+  "QuipuQuantum": 9.74,
+  "Cash": 0.73
+}
+
+====================================================================================================
+
+Ground truth — Subject 130 (t=50)
+Prices: PapayaTech=$1.282051, AxolotlWorks=$4.901961, QuipuQuantum=$1.300390
+True spend (raw): PapayaTech=$46.666667, AxolotlWorks=$0.000000, QuipuQuantum=$52.795839
+Cash left (raw): $0.537495
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 46.67,
+  "AxolotlWorks": 0.0,
+  "QuipuQuantum": 52.8,
+  "Cash": 0.53
+}
+
+====================================================================================================
+
+Ground truth — Subject 140 (t=50)
+Prices: PapayaTech=$1.242236, AxolotlWorks=$3.636364, QuipuQuantum=$1.960784
+True spend (raw): PapayaTech=$17.515528, AxolotlWorks=$53.090909, QuipuQuantum=$28.823529
+Cash left (raw): $0.570034
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 17.52,
+  "AxolotlWorks": 53.09,
+  "QuipuQuantum": 28.82,
+  "Cash": 0.57
+}
+
+====================================================================================================
+
+Ground truth — Subject 143 (t=50)
+Prices: PapayaTech=$1.079914, AxolotlWorks=$1.908397, QuipuQuantum=$3.067485
+True spend (raw): PapayaTech=$99.676026, AxolotlWorks=$0.190840, QuipuQuantum=$0.000000
+Cash left (raw): $0.133134
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 99.68,
+  "AxolotlWorks": 0.19,
+  "QuipuQuantum": 0.0,
+  "Cash": 0.13
+}
+
+====================================================================================================
+
+Ground truth — Subject 301 (t=50)
+Prices: PapayaTech=$1.432665, AxolotlWorks=$1.226994, QuipuQuantum=$1.432665
+True spend (raw): PapayaTech=$34.957020, AxolotlWorks=$29.815951, QuipuQuantum=$35.100287
+Cash left (raw): $0.126743
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 34.96,
+  "AxolotlWorks": 29.82,
+  "QuipuQuantum": 35.1,
+  "Cash": 0.12
+}
+
+====================================================================================================
+
+Ground truth — Subject 305 (t=50)
+Prices: PapayaTech=$1.477105, AxolotlWorks=$1.709402, QuipuQuantum=$1.386963
+True spend (raw): PapayaTech=$39.290990, AxolotlWorks=$56.410256, QuipuQuantum=$4.160888
+Cash left (raw): $0.137866
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 39.29,
+  "AxolotlWorks": 56.41,
+  "QuipuQuantum": 4.16,
+  "Cash": 0.14
+}
+
+====================================================================================================
+
+Ground truth — Subject 306 (t=50)
+Prices: PapayaTech=$1.234568, AxolotlWorks=$1.275510, QuipuQuantum=$1.499250
+True spend (raw): PapayaTech=$31.851852, AxolotlWorks=$32.525510, QuipuQuantum=$35.382309
+Cash left (raw): $0.240329
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 31.85,
+  "AxolotlWorks": 32.53,
+  "QuipuQuantum": 35.38,
+  "Cash": 0.24
+}
+
+====================================================================================================
+
+Ground truth — Subject 311 (t=50)
+Prices: PapayaTech=$1.538462, AxolotlWorks=$7.092199, QuipuQuantum=$1.333333
+True spend (raw): PapayaTech=$0.000000, AxolotlWorks=$0.000000, QuipuQuantum=$100.000000
+Cash left (raw): $0.000000
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.0,
+  "AxolotlWorks": 0.0,
+  "QuipuQuantum": 100.0,
+  "Cash": 0.0
+}
+
+====================================================================================================
+
+Ground truth — Subject 313 (t=50)
+Prices: PapayaTech=$2.277904, AxolotlWorks=$1.057082, QuipuQuantum=$1.992032
+True spend (raw): PapayaTech=$29.840547, AxolotlWorks=$27.061311, QuipuQuantum=$42.629482
+Cash left (raw): $0.468660
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 29.84,
+  "AxolotlWorks": 27.06,
+  "QuipuQuantum": 42.63,
+  "Cash": 0.47
+}
+
+====================================================================================================
+
+Ground truth — Subject 314 (t=50)
+Prices: PapayaTech=$1.582278, AxolotlWorks=$2.923977, QuipuQuantum=$1.801802
+True spend (raw): PapayaTech=$29.430380, AxolotlWorks=$42.397661, QuipuQuantum=$27.927928
+Cash left (raw): $0.244032
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 29.43,
+  "AxolotlWorks": 42.4,
+  "QuipuQuantum": 27.93,
+  "Cash": 0.24
+}
+
+====================================================================================================
+
+Ground truth — Subject 317 (t=50)
+Prices: PapayaTech=$3.623188, AxolotlWorks=$1.436782, QuipuQuantum=$2.197802
+True spend (raw): PapayaTech=$35.507246, AxolotlWorks=$52.729885, QuipuQuantum=$11.428571
+Cash left (raw): $0.334297
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 35.51,
+  "AxolotlWorks": 52.73,
+  "QuipuQuantum": 11.43,
+  "Cash": 0.33
+}
+
+====================================================================================================
+
+Ground truth — Subject 320 (t=50)
+Prices: PapayaTech=$1.897533, AxolotlWorks=$2.132196, QuipuQuantum=$1.366120
+True spend (raw): PapayaTech=$32.827324, AxolotlWorks=$33.262260, QuipuQuantum=$33.606557
+Cash left (raw): $0.303858
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 32.83,
+  "AxolotlWorks": 33.26,
+  "QuipuQuantum": 33.61,
+  "Cash": 0.3
+}
+
+====================================================================================================
+
+Ground truth — Subject 322 (t=50)
+Prices: PapayaTech=$1.524390, AxolotlWorks=$8.928571, QuipuQuantum=$1.150748
+True spend (raw): PapayaTech=$12.804878, AxolotlWorks=$75.892857, QuipuQuantum=$10.701956
+Cash left (raw): $0.600309
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 12.8,
+  "AxolotlWorks": 75.89,
+  "QuipuQuantum": 10.7,
+  "Cash": 0.61
+}
+
+====================================================================================================
+
+Ground truth — Subject 325 (t=50)
+Prices: PapayaTech=$1.344086, AxolotlWorks=$3.236246, QuipuQuantum=$4.651163
+True spend (raw): PapayaTech=$12.768817, AxolotlWorks=$35.598706, QuipuQuantum=$51.162791
+Cash left (raw): $0.469687
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 12.77,
+  "AxolotlWorks": 35.6,
+  "QuipuQuantum": 51.16,
+  "Cash": 0.47
+}
+
+====================================================================================================
+
+Ground truth — Subject 326 (t=50)
+Prices: PapayaTech=$6.666667, AxolotlWorks=$1.036269, QuipuQuantum=$1.492537
+True spend (raw): PapayaTech=$33.333333, AxolotlWorks=$32.331606, QuipuQuantum=$33.731343
+Cash left (raw): $0.603717
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.33,
+  "AxolotlWorks": 32.33,
+  "QuipuQuantum": 33.73,
+  "Cash": 0.61
+}
+
+====================================================================================================
+
+Ground truth — Subject 331 (t=50)
+Prices: PapayaTech=$1.715266, AxolotlWorks=$1.345895, QuipuQuantum=$1.557632
+True spend (raw): PapayaTech=$33.104631, AxolotlWorks=$32.032301, QuipuQuantum=$34.579439
+Cash left (raw): $0.283628
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.1,
+  "AxolotlWorks": 32.03,
+  "QuipuQuantum": 34.58,
+  "Cash": 0.29
+}
+
+====================================================================================================
+
+Ground truth — Subject 332 (t=50)
+Prices: PapayaTech=$1.127396, AxolotlWorks=$1.818182, QuipuQuantum=$1.300390
+True spend (raw): PapayaTech=$22.773393, AxolotlWorks=$48.909091, QuipuQuantum=$28.218466
+Cash left (raw): $0.099050
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 22.77,
+  "AxolotlWorks": 48.91,
+  "QuipuQuantum": 28.22,
+  "Cash": 0.1
+}
+
+====================================================================================================
+
+Ground truth — Subject 333 (t=50)
+Prices: PapayaTech=$1.118568, AxolotlWorks=$1.275510, QuipuQuantum=$1.739130
+True spend (raw): PapayaTech=$44.295302, AxolotlWorks=$54.719388, QuipuQuantum=$0.695652
+Cash left (raw): $0.289658
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 44.3,
+  "AxolotlWorks": 54.72,
+  "QuipuQuantum": 0.7,
+  "Cash": 0.28
+}
+
+====================================================================================================
+
+Ground truth — Subject 334 (t=50)
+Prices: PapayaTech=$1.029866, AxolotlWorks=$4.065041, QuipuQuantum=$4.545455
+True spend (raw): PapayaTech=$98.249228, AxolotlWorks=$0.000000, QuipuQuantum=$1.363636
+Cash left (raw): $0.387136
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 98.25,
+  "AxolotlWorks": 0.0,
+  "QuipuQuantum": 1.36,
+  "Cash": 0.39
+}
+
+====================================================================================================
+
+Ground truth — Subject 337 (t=50)
+Prices: PapayaTech=$1.094092, AxolotlWorks=$1.379310, QuipuQuantum=$1.064963
+True spend (raw): PapayaTech=$24.179431, AxolotlWorks=$50.206897, QuipuQuantum=$25.452609
+Cash left (raw): $0.161063
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 24.18,
+  "AxolotlWorks": 50.21,
+  "QuipuQuantum": 25.45,
+  "Cash": 0.16
+}
+
+====================================================================================================
+
+Ground truth — Subject 339 (t=50)
+Prices: PapayaTech=$1.239157, AxolotlWorks=$1.230012, QuipuQuantum=$3.355705
+True spend (raw): PapayaTech=$33.333333, AxolotlWorks=$32.964330, QuipuQuantum=$33.557047
+Cash left (raw): $0.145290
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.33,
+  "AxolotlWorks": 32.96,
+  "QuipuQuantum": 33.56,
+  "Cash": 0.15
+}
+
+====================================================================================================
+
+Ground truth — Subject 340 (t=50)
+Prices: PapayaTech=$1.012146, AxolotlWorks=$1.945525, QuipuQuantum=$1.109878
+True spend (raw): PapayaTech=$28.542510, AxolotlWorks=$39.299611, QuipuQuantum=$31.964484
+Cash left (raw): $0.193395
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 28.54,
+  "AxolotlWorks": 39.3,
+  "QuipuQuantum": 31.96,
+  "Cash": 0.2
+}
+
+====================================================================================================
+
+Ground truth — Subject 341 (t=50)
+Prices: PapayaTech=$1.269036, AxolotlWorks=$1.945525, QuipuQuantum=$3.952569
+True spend (raw): PapayaTech=$26.142132, AxolotlWorks=$27.237354, QuipuQuantum=$46.245059
+Cash left (raw): $0.375455
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 26.14,
+  "AxolotlWorks": 27.24,
+  "QuipuQuantum": 46.25,
+  "Cash": 0.37
+}
+
+====================================================================================================
+
+Ground truth — Subject 342 (t=50)
+Prices: PapayaTech=$2.074689, AxolotlWorks=$1.021450, QuipuQuantum=$1.727116
+True spend (raw): PapayaTech=$42.946058, AxolotlWorks=$21.041879, QuipuQuantum=$35.751295
+Cash left (raw): $0.260767
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 42.95,
+  "AxolotlWorks": 21.04,
+  "QuipuQuantum": 35.75,
+  "Cash": 0.26
+}
+
+====================================================================================================
+
+Ground truth — Subject 402 (t=50)
+Prices: PapayaTech=$1.060445, AxolotlWorks=$2.881844, QuipuQuantum=$1.023541
+True spend (raw): PapayaTech=$42.523860, AxolotlWorks=$20.172911, QuipuQuantum=$37.052201
+Cash left (raw): $0.251029
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 42.52,
+  "AxolotlWorks": 20.17,
+  "QuipuQuantum": 37.05,
+  "Cash": 0.26
+}
+
+====================================================================================================
+
+Ground truth — Subject 405 (t=50)
+Prices: PapayaTech=$1.041667, AxolotlWorks=$1.426534, QuipuQuantum=$1.700680
+True spend (raw): PapayaTech=$58.750000, AxolotlWorks=$18.687589, QuipuQuantum=$22.448980
+Cash left (raw): $0.113431
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 58.75,
+  "AxolotlWorks": 18.69,
+  "QuipuQuantum": 22.45,
+  "Cash": 0.11
+}
+
+====================================================================================================
+
+Ground truth — Subject 407 (t=50)
+Prices: PapayaTech=$4.048583, AxolotlWorks=$1.315789, QuipuQuantum=$1.639344
+True spend (raw): PapayaTech=$46.558704, AxolotlWorks=$33.289474, QuipuQuantum=$19.836066
+Cash left (raw): $0.315756
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 46.56,
+  "AxolotlWorks": 33.29,
+  "QuipuQuantum": 19.84,
+  "Cash": 0.31
+}
+
+====================================================================================================
+
+Ground truth — Subject 408 (t=50)
+Prices: PapayaTech=$1.937984, AxolotlWorks=$1.207729, QuipuQuantum=$1.512859
+True spend (raw): PapayaTech=$24.612403, AxolotlWorks=$52.657005, QuipuQuantum=$22.390318
+Cash left (raw): $0.340274
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 24.61,
+  "AxolotlWorks": 52.66,
+  "QuipuQuantum": 22.39,
+  "Cash": 0.34
+}
+
+====================================================================================================
+
+Ground truth — Subject 409 (t=50)
+Prices: PapayaTech=$1.228501, AxolotlWorks=$1.501502, QuipuQuantum=$1.083424
+True spend (raw): PapayaTech=$30.589681, AxolotlWorks=$38.138138, QuipuQuantum=$31.094258
+Cash left (raw): $0.177923
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 30.59,
+  "AxolotlWorks": 38.14,
+  "QuipuQuantum": 31.09,
+  "Cash": 0.18
+}
+
+====================================================================================================
+
+Ground truth — Subject 410 (t=50)
+Prices: PapayaTech=$9.615385, AxolotlWorks=$1.197605, QuipuQuantum=$1.091703
+True spend (raw): PapayaTech=$0.000000, AxolotlWorks=$53.413174, QuipuQuantum=$46.069869
+Cash left (raw): $0.516957
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.0,
+  "AxolotlWorks": 53.41,
+  "QuipuQuantum": 46.07,
+  "Cash": 0.52
+}
+
+====================================================================================================
+
+Ground truth — Subject 413 (t=50)
+Prices: PapayaTech=$1.686341, AxolotlWorks=$1.483680, QuipuQuantum=$1.666667
+True spend (raw): PapayaTech=$35.919056, AxolotlWorks=$29.970326, QuipuQuantum=$33.833333
+Cash left (raw): $0.277285
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 35.92,
+  "AxolotlWorks": 29.97,
+  "QuipuQuantum": 33.83,
+  "Cash": 0.28
+}
+
+====================================================================================================
+
+Ground truth — Subject 417 (t=50)
+Prices: PapayaTech=$2.702703, AxolotlWorks=$1.242236, QuipuQuantum=$9.900990
+True spend (raw): PapayaTech=$32.702703, AxolotlWorks=$16.397516, QuipuQuantum=$50.495050
+Cash left (raw): $0.404732
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 32.7,
+  "AxolotlWorks": 16.4,
+  "QuipuQuantum": 50.5,
+  "Cash": 0.4
+}
+
+====================================================================================================
+
+Ground truth — Subject 418 (t=50)
+Prices: PapayaTech=$1.779359, AxolotlWorks=$1.117318, QuipuQuantum=$1.733102
+True spend (raw): PapayaTech=$39.679715, AxolotlWorks=$22.122905, QuipuQuantum=$37.954939
+Cash left (raw): $0.242440
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 39.68,
+  "AxolotlWorks": 22.12,
+  "QuipuQuantum": 37.95,
+  "Cash": 0.25
+}
+
+====================================================================================================
+
+Ground truth — Subject 422 (t=50)
+Prices: PapayaTech=$6.896552, AxolotlWorks=$2.832861, QuipuQuantum=$1.029866
+True spend (raw): PapayaTech=$0.000000, AxolotlWorks=$46.175637, QuipuQuantum=$53.553038
+Cash left (raw): $0.271325
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.0,
+  "AxolotlWorks": 46.18,
+  "QuipuQuantum": 53.55,
+  "Cash": 0.27
+}
+
+====================================================================================================
+
+Ground truth — Subject 423 (t=50)
+Prices: PapayaTech=$1.858736, AxolotlWorks=$1.976285, QuipuQuantum=$1.890359
+True spend (raw): PapayaTech=$34.386617, AxolotlWorks=$28.458498, QuipuQuantum=$36.862004
+Cash left (raw): $0.292881
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 34.39,
+  "AxolotlWorks": 28.46,
+  "QuipuQuantum": 36.86,
+  "Cash": 0.29
+}
+
+====================================================================================================
+
+Ground truth — Subject 424 (t=50)
+Prices: PapayaTech=$9.708738, AxolotlWorks=$1.001001, QuipuQuantum=$1.336898
+True spend (raw): PapayaTech=$0.970874, AxolotlWorks=$98.798799, QuipuQuantum=$0.133690
+Cash left (raw): $0.096638
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.97,
+  "AxolotlWorks": 98.8,
+  "QuipuQuantum": 0.13,
+  "Cash": 0.1
+}
+
+====================================================================================================
+
+Ground truth — Subject 426 (t=50)
+Prices: PapayaTech=$1.364256, AxolotlWorks=$1.766784, QuipuQuantum=$2.941176
+True spend (raw): PapayaTech=$68.758527, AxolotlWorks=$17.491166, QuipuQuantum=$13.529412
+Cash left (raw): $0.220896
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 68.76,
+  "AxolotlWorks": 17.49,
+  "QuipuQuantum": 13.53,
+  "Cash": 0.22
+}
+
+====================================================================================================
+
+Ground truth — Subject 427 (t=50)
+Prices: PapayaTech=$1.610306, AxolotlWorks=$1.694915, QuipuQuantum=$1.190476
+True spend (raw): PapayaTech=$0.161031, AxolotlWorks=$0.847458, QuipuQuantum=$98.690476
+Cash left (raw): $0.301036
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.16,
+  "AxolotlWorks": 0.85,
+  "QuipuQuantum": 98.69,
+  "Cash": 0.3
+}
+
+====================================================================================================
+
+Ground truth — Subject 429 (t=50)
+Prices: PapayaTech=$1.118568, AxolotlWorks=$1.540832, QuipuQuantum=$1.776199
+True spend (raw): PapayaTech=$25.167785, AxolotlWorks=$38.828968, QuipuQuantum=$35.879218
+Cash left (raw): $0.124029
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 25.17,
+  "AxolotlWorks": 38.83,
+  "QuipuQuantum": 35.88,
+  "Cash": 0.12
+}
+
+====================================================================================================
+
+Ground truth — Subject 430 (t=50)
+Prices: PapayaTech=$1.246883, AxolotlWorks=$1.248439, QuipuQuantum=$1.345895
+True spend (raw): PapayaTech=$33.042394, AxolotlWorks=$29.588015, QuipuQuantum=$37.281292
+Cash left (raw): $0.088299
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.04,
+  "AxolotlWorks": 29.59,
+  "QuipuQuantum": 37.28,
+  "Cash": 0.09
+}
+
+====================================================================================================
+
+Ground truth — Subject 431 (t=50)
+Prices: PapayaTech=$6.849315, AxolotlWorks=$1.154734, QuipuQuantum=$1.355014
+True spend (raw): PapayaTech=$28.767123, AxolotlWorks=$44.226328, QuipuQuantum=$26.558266
+Cash left (raw): $0.448283
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 28.77,
+  "AxolotlWorks": 44.23,
+  "QuipuQuantum": 26.56,
+  "Cash": 0.44
+}
+
+====================================================================================================
+
+Ground truth — Subject 434 (t=50)
+Prices: PapayaTech=$4.629630, AxolotlWorks=$1.677852, QuipuQuantum=$1.655629
+True spend (raw): PapayaTech=$0.000000, AxolotlWorks=$50.671141, QuipuQuantum=$49.172185
+Cash left (raw): $0.156674
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.0,
+  "AxolotlWorks": 50.67,
+  "QuipuQuantum": 49.17,
+  "Cash": 0.16
+}
+
+====================================================================================================
+
+Ground truth — Subject 436 (t=50)
+Prices: PapayaTech=$1.351351, AxolotlWorks=$3.412969, QuipuQuantum=$1.234568
+True spend (raw): PapayaTech=$22.972973, AxolotlWorks=$56.313993, QuipuQuantum=$20.370370
+Cash left (raw): $0.342663
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 22.97,
+  "AxolotlWorks": 56.31,
+  "QuipuQuantum": 20.37,
+  "Cash": 0.35
+}
+
+====================================================================================================
+
+Ground truth — Subject 437 (t=50)
+Prices: PapayaTech=$1.862197, AxolotlWorks=$1.183432, QuipuQuantum=$1.340483
+True spend (raw): PapayaTech=$0.931099, AxolotlWorks=$95.384615, QuipuQuantum=$3.485255
+Cash left (raw): $0.199031
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.93,
+  "AxolotlWorks": 95.38,
+  "QuipuQuantum": 3.49,
+  "Cash": 0.2
+}
+
+====================================================================================================
+
+Ground truth — Subject 438 (t=50)
+Prices: PapayaTech=$1.184834, AxolotlWorks=$4.366812, QuipuQuantum=$1.061571
+True spend (raw): PapayaTech=$35.545024, AxolotlWorks=$36.244541, QuipuQuantum=$27.919321
+Cash left (raw): $0.291114
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 35.55,
+  "AxolotlWorks": 36.24,
+  "QuipuQuantum": 27.92,
+  "Cash": 0.29
+}
+
+====================================================================================================
+
+Ground truth — Subject 439 (t=50)
+Prices: PapayaTech=$1.555210, AxolotlWorks=$6.451613, QuipuQuantum=$1.545595
+True spend (raw): PapayaTech=$38.569207, AxolotlWorks=$25.806452, QuipuQuantum=$35.239567
+Cash left (raw): $0.384774
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 38.57,
+  "AxolotlWorks": 25.81,
+  "QuipuQuantum": 35.24,
+  "Cash": 0.38
+}
+
+====================================================================================================
+
+Ground truth — Subject 440 (t=50)
+Prices: PapayaTech=$2.493766, AxolotlWorks=$1.600000, QuipuQuantum=$1.754386
+True spend (raw): PapayaTech=$13.216958, AxolotlWorks=$41.760000, QuipuQuantum=$44.736842
+Cash left (raw): $0.286200
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 13.22,
+  "AxolotlWorks": 41.76,
+  "QuipuQuantum": 44.74,
+  "Cash": 0.28
+}
+
+====================================================================================================
+
+Ground truth — Subject 441 (t=50)
+Prices: PapayaTech=$1.071811, AxolotlWorks=$8.849558, QuipuQuantum=$2.570694
+True spend (raw): PapayaTech=$38.906752, AxolotlWorks=$12.389381, QuipuQuantum=$48.329049
+Cash left (raw): $0.374818
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 38.91,
+  "AxolotlWorks": 12.39,
+  "QuipuQuantum": 48.33,
+  "Cash": 0.37
+}
+
+====================================================================================================
+
+Ground truth — Subject 442 (t=50)
+Prices: PapayaTech=$1.109878, AxolotlWorks=$1.215067, QuipuQuantum=$1.176471
+True spend (raw): PapayaTech=$65.815760, AxolotlWorks=$0.243013, QuipuQuantum=$33.764706
+Cash left (raw): $0.176521
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 65.82,
+  "AxolotlWorks": 0.24,
+  "QuipuQuantum": 33.76,
+  "Cash": 0.18
+}
+
+====================================================================================================
+
+Ground truth — Subject 443 (t=50)
+Prices: PapayaTech=$1.845018, AxolotlWorks=$9.345794, QuipuQuantum=$3.731343
+True spend (raw): PapayaTech=$49.815498, AxolotlWorks=$3.738318, QuipuQuantum=$45.149254
+Cash left (raw): $1.296930
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 49.82,
+  "AxolotlWorks": 3.74,
+  "QuipuQuantum": 45.15,
+  "Cash": 1.29
+}
+
+====================================================================================================
+
+Ground truth — Subject 501 (t=50)
+Prices: PapayaTech=$1.893939, AxolotlWorks=$1.068376, QuipuQuantum=$1.004016
+True spend (raw): PapayaTech=$78.598485, AxolotlWorks=$11.111111, QuipuQuantum=$10.140562
+Cash left (raw): $0.149842
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 78.6,
+  "AxolotlWorks": 11.11,
+  "QuipuQuantum": 10.14,
+  "Cash": 0.15
+}
+
+====================================================================================================
+
+Ground truth — Subject 502 (t=50)
+Prices: PapayaTech=$1.579779, AxolotlWorks=$1.083424, QuipuQuantum=$1.177856
+True spend (raw): PapayaTech=$31.595577, AxolotlWorks=$33.586132, QuipuQuantum=$34.511190
+Cash left (raw): $0.307102
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 31.6,
+  "AxolotlWorks": 33.59,
+  "QuipuQuantum": 34.51,
+  "Cash": 0.3
+}
+
+====================================================================================================
+
+Ground truth — Subject 510 (t=50)
+Prices: PapayaTech=$5.405405, AxolotlWorks=$1.901141, QuipuQuantum=$2.197802
+True spend (raw): PapayaTech=$21.081081, AxolotlWorks=$34.980989, QuipuQuantum=$43.296703
+Cash left (raw): $0.641227
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 21.08,
+  "AxolotlWorks": 34.98,
+  "QuipuQuantum": 43.3,
+  "Cash": 0.64
+}
+
+====================================================================================================
+
+Ground truth — Subject 513 (t=50)
+Prices: PapayaTech=$1.824818, AxolotlWorks=$8.333333, QuipuQuantum=$1.636661
+True spend (raw): PapayaTech=$27.919708, AxolotlWorks=$34.166667, QuipuQuantum=$36.988543
+Cash left (raw): $0.925082
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 27.92,
+  "AxolotlWorks": 34.17,
+  "QuipuQuantum": 36.99,
+  "Cash": 0.92
+}
+
+====================================================================================================
+
+Ground truth — Subject 517 (t=50)
+Prices: PapayaTech=$3.802281, AxolotlWorks=$1.196172, QuipuQuantum=$1.280410
+True spend (raw): PapayaTech=$23.193916, AxolotlWorks=$63.397129, QuipuQuantum=$13.060179
+Cash left (raw): $0.348775
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 23.19,
+  "AxolotlWorks": 63.4,
+  "QuipuQuantum": 13.06,
+  "Cash": 0.35
+}
+
+====================================================================================================
+
+Ground truth — Subject 520 (t=50)
+Prices: PapayaTech=$1.508296, AxolotlWorks=$3.267974, QuipuQuantum=$1.742160
+True spend (raw): PapayaTech=$26.546003, AxolotlWorks=$47.712418, QuipuQuantum=$25.261324
+Cash left (raw): $0.480255
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 26.55,
+  "AxolotlWorks": 47.71,
+  "QuipuQuantum": 25.26,
+  "Cash": 0.48
+}
+
+====================================================================================================
+
+Ground truth — Subject 522 (t=50)
+Prices: PapayaTech=$1.096491, AxolotlWorks=$1.949318, QuipuQuantum=$1.168224
+True spend (raw): PapayaTech=$32.675439, AxolotlWorks=$33.138402, QuipuQuantum=$33.878505
+Cash left (raw): $0.307655
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 32.68,
+  "AxolotlWorks": 33.14,
+  "QuipuQuantum": 33.88,
+  "Cash": 0.3
+}
+
+====================================================================================================
+
+Ground truth — Subject 524 (t=50)
+Prices: PapayaTech=$3.663004, AxolotlWorks=$4.566210, QuipuQuantum=$1.592357
+True spend (raw): PapayaTech=$0.000000, AxolotlWorks=$36.986301, QuipuQuantum=$62.738854
+Cash left (raw): $0.274845
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.0,
+  "AxolotlWorks": 36.99,
+  "QuipuQuantum": 62.74,
+  "Cash": 0.27
+}
+
+====================================================================================================
+
+Ground truth — Subject 527 (t=50)
+Prices: PapayaTech=$3.039514, AxolotlWorks=$1.620746, QuipuQuantum=$2.577320
+True spend (raw): PapayaTech=$40.425532, AxolotlWorks=$22.852512, QuipuQuantum=$36.597938
+Cash left (raw): $0.124018
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 40.43,
+  "AxolotlWorks": 22.85,
+  "QuipuQuantum": 36.6,
+  "Cash": 0.12
+}
+
+====================================================================================================
+
+Ground truth — Subject 529 (t=50)
+Prices: PapayaTech=$5.988024, AxolotlWorks=$1.164144, QuipuQuantum=$1.422475
+True spend (raw): PapayaTech=$0.598802, AxolotlWorks=$49.825378, QuipuQuantum=$49.502134
+Cash left (raw): $0.073686
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.6,
+  "AxolotlWorks": 49.83,
+  "QuipuQuantum": 49.5,
+  "Cash": 0.07
+}
+
+====================================================================================================
+
+Ground truth — Subject 530 (t=50)
+Prices: PapayaTech=$2.487562, AxolotlWorks=$1.305483, QuipuQuantum=$1.897533
+True spend (raw): PapayaTech=$0.248756, AxolotlWorks=$56.919060, QuipuQuantum=$42.504744
+Cash left (raw): $0.327440
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.25,
+  "AxolotlWorks": 56.92,
+  "QuipuQuantum": 42.5,
+  "Cash": 0.33
+}
+
+====================================================================================================
+
+Ground truth — Subject 536 (t=50)
+Prices: PapayaTech=$1.703578, AxolotlWorks=$1.597444, QuipuQuantum=$1.074114
+True spend (raw): PapayaTech=$38.160136, AxolotlWorks=$38.019169, QuipuQuantum=$23.523093
+Cash left (raw): $0.297601
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 38.16,
+  "AxolotlWorks": 38.02,
+  "QuipuQuantum": 23.52,
+  "Cash": 0.3
+}
+
+====================================================================================================
+
+Ground truth — Subject 540 (t=50)
+Prices: PapayaTech=$1.222494, AxolotlWorks=$1.945525, QuipuQuantum=$1.472754
+True spend (raw): PapayaTech=$31.051345, AxolotlWorks=$40.856031, QuipuQuantum=$27.835052
+Cash left (raw): $0.257573
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 31.05,
+  "AxolotlWorks": 40.86,
+  "QuipuQuantum": 27.84,
+  "Cash": 0.25
+}
+
+====================================================================================================
+
+Ground truth — Subject 541 (t=50)
+Prices: PapayaTech=$9.803922, AxolotlWorks=$2.487562, QuipuQuantum=$1.138952
+True spend (raw): PapayaTech=$0.000000, AxolotlWorks=$0.248756, QuipuQuantum=$98.974943
+Cash left (raw): $0.776301
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.0,
+  "AxolotlWorks": 0.25,
+  "QuipuQuantum": 98.97,
+  "Cash": 0.78
+}
+
+====================================================================================================
+
+Ground truth — Subject 542 (t=50)
+Prices: PapayaTech=$1.845018, AxolotlWorks=$1.545595, QuipuQuantum=$1.479290
+True spend (raw): PapayaTech=$35.977860, AxolotlWorks=$30.911901, QuipuQuantum=$32.840237
+Cash left (raw): $0.270002
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 35.98,
+  "AxolotlWorks": 30.91,
+  "QuipuQuantum": 32.84,
+  "Cash": 0.27
+}
+
+====================================================================================================
+
+Ground truth — Subject 543 (t=50)
+Prices: PapayaTech=$1.092896, AxolotlWorks=$1.011122, QuipuQuantum=$5.263158
+True spend (raw): PapayaTech=$45.245902, AxolotlWorks=$50.859454, QuipuQuantum=$3.684211
+Cash left (raw): $0.210434
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 45.25,
+  "AxolotlWorks": 50.86,
+  "QuipuQuantum": 3.68,
+  "Cash": 0.21
+}
+
+====================================================================================================
+
+Ground truth — Subject 601 (t=50)
+Prices: PapayaTech=$1.128668, AxolotlWorks=$1.834862, QuipuQuantum=$1.941748
+True spend (raw): PapayaTech=$33.860045, AxolotlWorks=$27.706422, QuipuQuantum=$38.252427
+Cash left (raw): $0.181106
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.86,
+  "AxolotlWorks": 27.71,
+  "QuipuQuantum": 38.25,
+  "Cash": 0.18
+}
+
+====================================================================================================
+
+Ground truth — Subject 602 (t=50)
+Prices: PapayaTech=$1.508296, AxolotlWorks=$1.190476, QuipuQuantum=$1.739130
+True spend (raw): PapayaTech=$33.333333, AxolotlWorks=$26.428571, QuipuQuantum=$40.000000
+Cash left (raw): $0.238095
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.33,
+  "AxolotlWorks": 26.43,
+  "QuipuQuantum": 40.0,
+  "Cash": 0.24
+}
+
+====================================================================================================
+
+Ground truth — Subject 603 (t=50)
+Prices: PapayaTech=$1.153403, AxolotlWorks=$1.362398, QuipuQuantum=$1.312336
+True spend (raw): PapayaTech=$38.869665, AxolotlWorks=$29.291553, QuipuQuantum=$31.627297
+Cash left (raw): $0.211485
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 38.87,
+  "AxolotlWorks": 29.29,
+  "QuipuQuantum": 31.63,
+  "Cash": 0.21
+}
+
+====================================================================================================
+
+Ground truth — Subject 604 (t=50)
+Prices: PapayaTech=$1.508296, AxolotlWorks=$1.543210, QuipuQuantum=$2.074689
+True spend (raw): PapayaTech=$38.009050, AxolotlWorks=$38.580247, QuipuQuantum=$23.236515
+Cash left (raw): $0.174189
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 38.01,
+  "AxolotlWorks": 38.58,
+  "QuipuQuantum": 23.24,
+  "Cash": 0.17
+}
+
+====================================================================================================
+
+Ground truth — Subject 605 (t=50)
+Prices: PapayaTech=$2.673797, AxolotlWorks=$9.009009, QuipuQuantum=$1.336898
+True spend (raw): PapayaTech=$1.336898, AxolotlWorks=$1.801802, QuipuQuantum=$96.390374
+Cash left (raw): $0.470925
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 1.34,
+  "AxolotlWorks": 1.8,
+  "QuipuQuantum": 96.39,
+  "Cash": 0.47
+}
+
+====================================================================================================
+
+Ground truth — Subject 606 (t=50)
+Prices: PapayaTech=$1.451379, AxolotlWorks=$1.501502, QuipuQuantum=$1.453488
+True spend (raw): PapayaTech=$39.477504, AxolotlWorks=$30.930931, QuipuQuantum=$29.505814
+Cash left (raw): $0.085751
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 39.48,
+  "AxolotlWorks": 30.93,
+  "QuipuQuantum": 29.51,
+  "Cash": 0.08
+}
+
+====================================================================================================
+
+Ground truth — Subject 607 (t=50)
+Prices: PapayaTech=$1.529052, AxolotlWorks=$1.416431, QuipuQuantum=$3.571429
+True spend (raw): PapayaTech=$23.088685, AxolotlWorks=$40.651558, QuipuQuantum=$35.714286
+Cash left (raw): $0.545471
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 23.09,
+  "AxolotlWorks": 40.65,
+  "QuipuQuantum": 35.71,
+  "Cash": 0.55
+}
+
+====================================================================================================
+
+Ground truth — Subject 608 (t=50)
+Prices: PapayaTech=$1.901141, AxolotlWorks=$1.043841, QuipuQuantum=$1.043841
+True spend (raw): PapayaTech=$0.000000, AxolotlWorks=$55.427975, QuipuQuantum=$44.363257
+Cash left (raw): $0.208768
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.0,
+  "AxolotlWorks": 55.43,
+  "QuipuQuantum": 44.36,
+  "Cash": 0.21
+}
+
+====================================================================================================
+
+Ground truth — Subject 609 (t=50)
+Prices: PapayaTech=$1.445087, AxolotlWorks=$2.392344, QuipuQuantum=$1.652893
+True spend (raw): PapayaTech=$23.121387, AxolotlWorks=$45.215311, QuipuQuantum=$31.404959
+Cash left (raw): $0.258343
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 23.12,
+  "AxolotlWorks": 45.22,
+  "QuipuQuantum": 31.4,
+  "Cash": 0.26
+}
+
+====================================================================================================
+
+Ground truth — Subject 610 (t=50)
+Prices: PapayaTech=$2.096436, AxolotlWorks=$1.182033, QuipuQuantum=$1.096491
+True spend (raw): PapayaTech=$29.979036, AxolotlWorks=$35.815603, QuipuQuantum=$33.881579
+Cash left (raw): $0.323783
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 29.98,
+  "AxolotlWorks": 35.82,
+  "QuipuQuantum": 33.88,
+  "Cash": 0.32
+}
+
+====================================================================================================
+
+Ground truth — Subject 611 (t=50)
+Prices: PapayaTech=$3.802281, AxolotlWorks=$1.324503, QuipuQuantum=$1.285347
+True spend (raw): PapayaTech=$0.380228, AxolotlWorks=$49.933775, QuipuQuantum=$49.485861
+Cash left (raw): $0.200136
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.38,
+  "AxolotlWorks": 49.93,
+  "QuipuQuantum": 49.49,
+  "Cash": 0.2
+}
+
+====================================================================================================
+
+Ground truth — Subject 612 (t=50)
+Prices: PapayaTech=$1.404494, AxolotlWorks=$1.402525, QuipuQuantum=$2.967359
+True spend (raw): PapayaTech=$14.044944, AxolotlWorks=$27.349229, QuipuQuantum=$58.456973
+Cash left (raw): $0.148854
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 14.04,
+  "AxolotlWorks": 27.35,
+  "QuipuQuantum": 58.46,
+  "Cash": 0.15
+}
+
+====================================================================================================
+
+Ground truth — Subject 613 (t=50)
+Prices: PapayaTech=$2.169197, AxolotlWorks=$1.600000, QuipuQuantum=$1.213592
+True spend (raw): PapayaTech=$2.169197, AxolotlWorks=$49.760000, QuipuQuantum=$47.815534
+Cash left (raw): $0.255269
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 2.17,
+  "AxolotlWorks": 49.76,
+  "QuipuQuantum": 47.82,
+  "Cash": 0.25
+}
+
+====================================================================================================
+
+Ground truth — Subject 614 (t=50)
+Prices: PapayaTech=$1.642036, AxolotlWorks=$4.975124, QuipuQuantum=$2.016129
+True spend (raw): PapayaTech=$98.029557, AxolotlWorks=$0.995025, QuipuQuantum=$0.403226
+Cash left (raw): $0.572193
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 98.03,
+  "AxolotlWorks": 1.0,
+  "QuipuQuantum": 0.4,
+  "Cash": 0.57
+}
+
+====================================================================================================
+
+Ground truth — Subject 615 (t=50)
+Prices: PapayaTech=$1.449275, AxolotlWorks=$1.270648, QuipuQuantum=$2.777778
+True spend (raw): PapayaTech=$28.695652, AxolotlWorks=$22.871665, QuipuQuantum=$48.333333
+Cash left (raw): $0.099350
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 28.7,
+  "AxolotlWorks": 22.87,
+  "QuipuQuantum": 48.33,
+  "Cash": 0.1
+}
+
+====================================================================================================
+
+Ground truth — Subject 616 (t=50)
+Prices: PapayaTech=$2.232143, AxolotlWorks=$1.410437, QuipuQuantum=$1.529052
+True spend (raw): PapayaTech=$42.857143, AxolotlWorks=$27.362482, QuipuQuantum=$29.510703
+Cash left (raw): $0.269671
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 42.86,
+  "AxolotlWorks": 27.36,
+  "QuipuQuantum": 29.51,
+  "Cash": 0.27
+}
+
+====================================================================================================
+
+Ground truth — Subject 617 (t=50)
+Prices: PapayaTech=$1.264223, AxolotlWorks=$6.578947, QuipuQuantum=$1.050420
+True spend (raw): PapayaTech=$51.074589, AxolotlWorks=$33.552632, QuipuQuantum=$15.021008
+Cash left (raw): $0.351771
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 51.07,
+  "AxolotlWorks": 33.55,
+  "QuipuQuantum": 15.02,
+  "Cash": 0.36
+}
+
+====================================================================================================
+
+Ground truth — Subject 618 (t=50)
+Prices: PapayaTech=$1.404494, AxolotlWorks=$4.629630, QuipuQuantum=$1.540832
+True spend (raw): PapayaTech=$21.629213, AxolotlWorks=$46.296296, QuipuQuantum=$31.432974
+Cash left (raw): $0.641516
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 21.63,
+  "AxolotlWorks": 46.3,
+  "QuipuQuantum": 31.43,
+  "Cash": 0.64
+}
+
+====================================================================================================
+
+Ground truth — Subject 619 (t=50)
+Prices: PapayaTech=$1.336898, AxolotlWorks=$1.445087, QuipuQuantum=$4.545455
+True spend (raw): PapayaTech=$31.016043, AxolotlWorks=$17.630058, QuipuQuantum=$50.909091
+Cash left (raw): $0.444809
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 31.02,
+  "AxolotlWorks": 17.63,
+  "QuipuQuantum": 50.91,
+  "Cash": 0.44
+}
+
+====================================================================================================
+
+Ground truth — Subject 620 (t=50)
+Prices: PapayaTech=$1.386963, AxolotlWorks=$1.291990, QuipuQuantum=$1.156069
+True spend (raw): PapayaTech=$0.138696, AxolotlWorks=$0.129199, QuipuQuantum=$99.537572
+Cash left (raw): $0.194533
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.14,
+  "AxolotlWorks": 0.13,
+  "QuipuQuantum": 99.54,
+  "Cash": 0.19
+}
+
+====================================================================================================
+
+Ground truth — Subject 621 (t=50)
+Prices: PapayaTech=$1.042753, AxolotlWorks=$2.358491, QuipuQuantum=$9.900990
+True spend (raw): PapayaTech=$51.929093, AxolotlWorks=$47.641509, QuipuQuantum=$0.000000
+Cash left (raw): $0.429398
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 51.93,
+  "AxolotlWorks": 47.64,
+  "QuipuQuantum": 0.0,
+  "Cash": 0.43
+}
+
+====================================================================================================
+
+Ground truth — Subject 622 (t=50)
+Prices: PapayaTech=$1.219512, AxolotlWorks=$4.878049, QuipuQuantum=$1.367989
+True spend (raw): PapayaTech=$28.170732, AxolotlWorks=$53.170732, QuipuQuantum=$18.331053
+Cash left (raw): $0.327483
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 28.17,
+  "AxolotlWorks": 53.17,
+  "QuipuQuantum": 18.33,
+  "Cash": 0.33
+}
+
+====================================================================================================
+
+Ground truth — Subject 623 (t=50)
+Prices: PapayaTech=$1.703578, AxolotlWorks=$3.355705, QuipuQuantum=$1.186240
+True spend (raw): PapayaTech=$34.071550, AxolotlWorks=$42.617450, QuipuQuantum=$22.775801
+Cash left (raw): $0.535199
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 34.07,
+  "AxolotlWorks": 42.62,
+  "QuipuQuantum": 22.78,
+  "Cash": 0.53
+}
+
+====================================================================================================
+
+Ground truth — Subject 624 (t=50)
+Prices: PapayaTech=$1.897533, AxolotlWorks=$1.117318, QuipuQuantum=$1.154734
+True spend (raw): PapayaTech=$46.299810, AxolotlWorks=$27.150838, QuipuQuantum=$26.327945
+Cash left (raw): $0.221407
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 46.3,
+  "AxolotlWorks": 27.15,
+  "QuipuQuantum": 26.33,
+  "Cash": 0.22
+}
+
+====================================================================================================
+
+Ground truth — Subject 625 (t=50)
+Prices: PapayaTech=$1.680672, AxolotlWorks=$1.302083, QuipuQuantum=$2.433090
+True spend (raw): PapayaTech=$29.579832, AxolotlWorks=$31.901042, QuipuQuantum=$38.199513
+Cash left (raw): $0.319613
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 29.58,
+  "AxolotlWorks": 31.9,
+  "QuipuQuantum": 38.2,
+  "Cash": 0.32
+}
+
+====================================================================================================
+
+Ground truth — Subject 626 (t=50)
+Prices: PapayaTech=$1.023541, AxolotlWorks=$1.051525, QuipuQuantum=$1.129944
+True spend (raw): PapayaTech=$32.958035, AxolotlWorks=$32.386961, QuipuQuantum=$34.576271
+Cash left (raw): $0.078733
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 32.96,
+  "AxolotlWorks": 32.39,
+  "QuipuQuantum": 34.58,
+  "Cash": 0.07
+}
+
+====================================================================================================
+
+Ground truth — Subject 627 (t=50)
+Prices: PapayaTech=$1.168224, AxolotlWorks=$2.906977, QuipuQuantum=$1.964637
+True spend (raw): PapayaTech=$94.626168, AxolotlWorks=$3.197674, QuipuQuantum=$1.768173
+Cash left (raw): $0.407984
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 94.63,
+  "AxolotlWorks": 3.2,
+  "QuipuQuantum": 1.77,
+  "Cash": 0.4
+}
+
+====================================================================================================
+
+Ground truth — Subject 628 (t=50)
+Prices: PapayaTech=$1.355014, AxolotlWorks=$1.769912, QuipuQuantum=$1.021450
+True spend (raw): PapayaTech=$26.693767, AxolotlWorks=$52.743363, QuipuQuantum=$20.429009
+Cash left (raw): $0.133861
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 26.69,
+  "AxolotlWorks": 52.74,
+  "QuipuQuantum": 20.43,
+  "Cash": 0.14
+}
+
+====================================================================================================
+
+Ground truth — Subject 629 (t=50)
+Prices: PapayaTech=$1.594896, AxolotlWorks=$1.226994, QuipuQuantum=$2.049180
+True spend (raw): PapayaTech=$0.956938, AxolotlWorks=$98.650307, QuipuQuantum=$0.204918
+Cash left (raw): $0.187837
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 0.96,
+  "AxolotlWorks": 98.65,
+  "QuipuQuantum": 0.2,
+  "Cash": 0.19
+}
+
+====================================================================================================
+
+Ground truth — Subject 630 (t=50)
+Prices: PapayaTech=$1.838235, AxolotlWorks=$3.891051, QuipuQuantum=$1.956947
+True spend (raw): PapayaTech=$47.610294, AxolotlWorks=$0.389105, QuipuQuantum=$51.859100
+Cash left (raw): $0.141501
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 47.61,
+  "AxolotlWorks": 0.39,
+  "QuipuQuantum": 51.86,
+  "Cash": 0.14
+}
+
+====================================================================================================
+
+Ground truth — Subject 631 (t=50)
+Prices: PapayaTech=$1.321004, AxolotlWorks=$1.785714, QuipuQuantum=$1.739130
+True spend (raw): PapayaTech=$26.420079, AxolotlWorks=$37.857143, QuipuQuantum=$35.478261
+Cash left (raw): $0.244517
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 26.42,
+  "AxolotlWorks": 37.86,
+  "QuipuQuantum": 35.48,
+  "Cash": 0.24
+}
+
+====================================================================================================
+
+Ground truth — Subject 632 (t=50)
+Prices: PapayaTech=$1.079914, AxolotlWorks=$1.919386, QuipuQuantum=$2.232143
+True spend (raw): PapayaTech=$16.306695, AxolotlWorks=$37.428023, QuipuQuantum=$45.982143
+Cash left (raw): $0.283139
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 16.31,
+  "AxolotlWorks": 37.43,
+  "QuipuQuantum": 45.98,
+  "Cash": 0.28
+}
+
+====================================================================================================
+
+Ground truth — Subject 700 (t=50)
+Prices: PapayaTech=$1.142857, AxolotlWorks=$1.108647, QuipuQuantum=$1.025641
+True spend (raw): PapayaTech=$33.942857, AxolotlWorks=$34.811530, QuipuQuantum=$30.974359
+Cash left (raw): $0.271254
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.94,
+  "AxolotlWorks": 34.81,
+  "QuipuQuantum": 30.97,
+  "Cash": 0.28
+}
+
+====================================================================================================
+
+Ground truth — Subject 701 (t=50)
+Prices: PapayaTech=$9.345794, AxolotlWorks=$1.206273, QuipuQuantum=$1.070664
+True spend (raw): PapayaTech=$11.214953, AxolotlWorks=$46.320869, QuipuQuantum=$41.648822
+Cash left (raw): $0.815356
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 11.21,
+  "AxolotlWorks": 46.32,
+  "QuipuQuantum": 41.65,
+  "Cash": 0.82
+}
+
+====================================================================================================
+
+Ground truth — Subject 702 (t=50)
+Prices: PapayaTech=$4.098361, AxolotlWorks=$1.098901, QuipuQuantum=$1.248439
+True spend (raw): PapayaTech=$40.983607, AxolotlWorks=$38.461538, QuipuQuantum=$20.224719
+Cash left (raw): $0.330136
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 40.98,
+  "AxolotlWorks": 38.46,
+  "QuipuQuantum": 20.22,
+  "Cash": 0.34
+}
+
+====================================================================================================
+
+Ground truth — Subject 703 (t=50)
+Prices: PapayaTech=$1.305483, AxolotlWorks=$1.438849, QuipuQuantum=$1.760563
+True spend (raw): PapayaTech=$29.112272, AxolotlWorks=$31.942446, QuipuQuantum=$38.908451
+Cash left (raw): $0.036832
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 29.11,
+  "AxolotlWorks": 31.94,
+  "QuipuQuantum": 38.91,
+  "Cash": 0.04
+}
+
+====================================================================================================
+
+Ground truth — Subject 704 (t=50)
+Prices: PapayaTech=$1.239157, AxolotlWorks=$3.144654, QuipuQuantum=$2.000000
+True spend (raw): PapayaTech=$19.083024, AxolotlWorks=$49.685535, QuipuQuantum=$30.800000
+Cash left (raw): $0.431442
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 19.08,
+  "AxolotlWorks": 49.69,
+  "QuipuQuantum": 30.8,
+  "Cash": 0.43
+}
+
+====================================================================================================
+
+Ground truth — Subject 705 (t=50)
+Prices: PapayaTech=$2.487562, AxolotlWorks=$1.283697, QuipuQuantum=$4.166667
+True spend (raw): PapayaTech=$27.611940, AxolotlWorks=$22.849807, QuipuQuantum=$49.166667
+Cash left (raw): $0.371586
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 27.61,
+  "AxolotlWorks": 22.85,
+  "QuipuQuantum": 49.17,
+  "Cash": 0.37
+}
+
+====================================================================================================
+
+Ground truth — Subject 706 (t=50)
+Prices: PapayaTech=$1.207729, AxolotlWorks=$7.142857, QuipuQuantum=$5.747126
+True spend (raw): PapayaTech=$32.004831, AxolotlWorks=$41.428571, QuipuQuantum=$25.862069
+Cash left (raw): $0.704529
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 32.0,
+  "AxolotlWorks": 41.43,
+  "QuipuQuantum": 25.86,
+  "Cash": 0.71
+}
+
+====================================================================================================
+
+Ground truth — Subject 707 (t=50)
+Prices: PapayaTech=$1.328021, AxolotlWorks=$1.002004, QuipuQuantum=$2.564103
+True spend (raw): PapayaTech=$9.960159, AxolotlWorks=$74.448898, QuipuQuantum=$15.384615
+Cash left (raw): $0.206327
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 9.96,
+  "AxolotlWorks": 74.45,
+  "QuipuQuantum": 15.38,
+  "Cash": 0.21
+}
+
+====================================================================================================
+
+Ground truth — Subject 708 (t=50)
+Prices: PapayaTech=$4.629630, AxolotlWorks=$3.759398, QuipuQuantum=$1.739130
+True spend (raw): PapayaTech=$31.944444, AxolotlWorks=$29.699248, QuipuQuantum=$37.739130
+Cash left (raw): $0.617177
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 31.94,
+  "AxolotlWorks": 29.7,
+  "QuipuQuantum": 37.74,
+  "Cash": 0.62
+}
+
+====================================================================================================
+
+Ground truth — Subject 800 (t=50)
+Prices: PapayaTech=$1.104972, AxolotlWorks=$1.228501, QuipuQuantum=$1.390821
+True spend (raw): PapayaTech=$46.850829, AxolotlWorks=$27.027027, QuipuQuantum=$25.869263
+Cash left (raw): $0.252881
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 46.85,
+  "AxolotlWorks": 27.03,
+  "QuipuQuantum": 25.87,
+  "Cash": 0.25
+}
+
+====================================================================================================
+
+Ground truth — Subject 801 (t=50)
+Prices: PapayaTech=$2.906977, AxolotlWorks=$1.876173, QuipuQuantum=$9.090909
+True spend (raw): PapayaTech=$19.186047, AxolotlWorks=$24.390244, QuipuQuantum=$55.454545
+Cash left (raw): $0.969164
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 19.19,
+  "AxolotlWorks": 24.39,
+  "QuipuQuantum": 55.45,
+  "Cash": 0.97
+}
+
+====================================================================================================
+
+Ground truth — Subject 802 (t=50)
+Prices: PapayaTech=$3.952569, AxolotlWorks=$1.420455, QuipuQuantum=$6.802721
+True spend (raw): PapayaTech=$33.596838, AxolotlWorks=$12.784091, QuipuQuantum=$53.061224
+Cash left (raw): $0.557847
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.6,
+  "AxolotlWorks": 12.78,
+  "QuipuQuantum": 53.06,
+  "Cash": 0.56
+}
+
+====================================================================================================
+
+Ground truth — Subject 803 (t=50)
+Prices: PapayaTech=$1.005025, AxolotlWorks=$6.329114, QuipuQuantum=$1.490313
+True spend (raw): PapayaTech=$26.432161, AxolotlWorks=$62.658228, QuipuQuantum=$10.283159
+Cash left (raw): $0.626452
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 26.43,
+  "AxolotlWorks": 62.66,
+  "QuipuQuantum": 10.28,
+  "Cash": 0.63
+}
+
+====================================================================================================
+
+Ground truth — Subject 804 (t=50)
+Prices: PapayaTech=$1.912046, AxolotlWorks=$1.647446, QuipuQuantum=$1.024590
+True spend (raw): PapayaTech=$41.300191, AxolotlWorks=$35.749588, QuipuQuantum=$22.745902
+Cash left (raw): $0.204319
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 41.3,
+  "AxolotlWorks": 35.75,
+  "QuipuQuantum": 22.75,
+  "Cash": 0.2
+}
+
+====================================================================================================
+
+Ground truth — Subject 805 (t=50)
+Prices: PapayaTech=$2.096436, AxolotlWorks=$2.008032, QuipuQuantum=$1.012146
+True spend (raw): PapayaTech=$32.914046, AxolotlWorks=$28.313253, QuipuQuantum=$38.461538
+Cash left (raw): $0.311162
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 32.91,
+  "AxolotlWorks": 28.31,
+  "QuipuQuantum": 38.46,
+  "Cash": 0.32
+}
+
+====================================================================================================
+
+Ground truth — Subject 806 (t=50)
+Prices: PapayaTech=$2.518892, AxolotlWorks=$1.453488, QuipuQuantum=$1.923077
+True spend (raw): PapayaTech=$33.249370, AxolotlWorks=$47.383721, QuipuQuantum=$19.230769
+Cash left (raw): $0.136140
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.25,
+  "AxolotlWorks": 47.38,
+  "QuipuQuantum": 19.23,
+  "Cash": 0.14
+}
+
+====================================================================================================
+
+Ground truth — Subject 807 (t=50)
+Prices: PapayaTech=$2.680965, AxolotlWorks=$1.063830, QuipuQuantum=$1.915709
+True spend (raw): PapayaTech=$46.648794, AxolotlWorks=$18.936170, QuipuQuantum=$34.099617
+Cash left (raw): $0.315419
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 46.65,
+  "AxolotlWorks": 18.94,
+  "QuipuQuantum": 34.1,
+  "Cash": 0.31
+}
+
+====================================================================================================
+
+Ground truth — Subject 808 (t=50)
+Prices: PapayaTech=$1.615509, AxolotlWorks=$1.677852, QuipuQuantum=$1.014199
+True spend (raw): PapayaTech=$29.079160, AxolotlWorks=$31.040268, QuipuQuantum=$39.756592
+Cash left (raw): $0.123979
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 29.08,
+  "AxolotlWorks": 31.04,
+  "QuipuQuantum": 39.76,
+  "Cash": 0.12
+}
+
+====================================================================================================
+
+Ground truth — Subject 809 (t=50)
+Prices: PapayaTech=$1.234568, AxolotlWorks=$1.312336, QuipuQuantum=$1.477105
+True spend (raw): PapayaTech=$34.938272, AxolotlWorks=$37.795276, QuipuQuantum=$27.031019
+Cash left (raw): $0.235434
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 34.94,
+  "AxolotlWorks": 37.8,
+  "QuipuQuantum": 27.03,
+  "Cash": 0.23
+}
+
+====================================================================================================
+
+Ground truth — Subject 810 (t=50)
+Prices: PapayaTech=$1.160093, AxolotlWorks=$1.351351, QuipuQuantum=$1.620746
+True spend (raw): PapayaTech=$26.914153, AxolotlWorks=$37.162162, QuipuQuantum=$35.656402
+Cash left (raw): $0.267283
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 26.91,
+  "AxolotlWorks": 37.16,
+  "QuipuQuantum": 35.66,
+  "Cash": 0.27
+}
+
+====================================================================================================
+
+Ground truth — Subject 811 (t=50)
+Prices: PapayaTech=$1.650165, AxolotlWorks=$1.730104, QuipuQuantum=$1.620746
+True spend (raw): PapayaTech=$34.488449, AxolotlWorks=$17.301038, QuipuQuantum=$47.974068
+Cash left (raw): $0.236445
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 34.49,
+  "AxolotlWorks": 17.3,
+  "QuipuQuantum": 47.97,
+  "Cash": 0.24
+}
+
+====================================================================================================
+
+Ground truth — Subject 812 (t=50)
+Prices: PapayaTech=$1.236094, AxolotlWorks=$1.886792, QuipuQuantum=$1.140251
+True spend (raw): PapayaTech=$29.048208, AxolotlWorks=$43.396226, QuipuQuantum=$27.366021
+Cash left (raw): $0.189545
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 29.05,
+  "AxolotlWorks": 43.4,
+  "QuipuQuantum": 27.37,
+  "Cash": 0.18
+}
+
+====================================================================================================
+
+Ground truth — Subject 900 (t=50)
+Prices: PapayaTech=$1.620746, AxolotlWorks=$1.686341, QuipuQuantum=$1.418440
+True spend (raw): PapayaTech=$23.338736, AxolotlWorks=$25.463744, QuipuQuantum=$51.063830
+Cash left (raw): $0.133691
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 23.34,
+  "AxolotlWorks": 25.46,
+  "QuipuQuantum": 51.06,
+  "Cash": 0.14
+}
+
+====================================================================================================
+
+Ground truth — Subject 901 (t=50)
+Prices: PapayaTech=$1.805054, AxolotlWorks=$1.141553, QuipuQuantum=$2.857143
+True spend (raw): PapayaTech=$48.916968, AxolotlWorks=$48.744292, QuipuQuantum=$2.000000
+Cash left (raw): $0.338740
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 48.92,
+  "AxolotlWorks": 48.74,
+  "QuipuQuantum": 2.0,
+  "Cash": 0.34
+}
+
+====================================================================================================
+
+Ground truth — Subject 902 (t=50)
+Prices: PapayaTech=$1.644737, AxolotlWorks=$1.692047, QuipuQuantum=$1.079914
+True spend (raw): PapayaTech=$37.993421, AxolotlWorks=$34.010152, QuipuQuantum=$27.861771
+Cash left (raw): $0.134656
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 37.99,
+  "AxolotlWorks": 34.01,
+  "QuipuQuantum": 27.86,
+  "Cash": 0.14
+}
+
+====================================================================================================
+
+Ground truth — Subject 903 (t=50)
+Prices: PapayaTech=$1.184834, AxolotlWorks=$1.233046, QuipuQuantum=$1.494768
+True spend (raw): PapayaTech=$99.170616, AxolotlWorks=$0.493218, QuipuQuantum=$0.149477
+Cash left (raw): $0.186689
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 99.17,
+  "AxolotlWorks": 0.49,
+  "QuipuQuantum": 0.15,
+  "Cash": 0.19
+}
+
+====================================================================================================
+
+Ground truth — Subject 904 (t=50)
+Prices: PapayaTech=$2.666667, AxolotlWorks=$1.468429, QuipuQuantum=$2.785515
+True spend (raw): PapayaTech=$45.600000, AxolotlWorks=$25.697504, QuipuQuantum=$28.412256
+Cash left (raw): $0.290240
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 45.6,
+  "AxolotlWorks": 25.7,
+  "QuipuQuantum": 28.41,
+  "Cash": 0.29
+}
+
+====================================================================================================
+
+Ground truth — Subject 905 (t=50)
+Prices: PapayaTech=$1.689189, AxolotlWorks=$1.369863, QuipuQuantum=$1.545595
+True spend (raw): PapayaTech=$9.459459, AxolotlWorks=$59.726027, QuipuQuantum=$30.448223
+Cash left (raw): $0.366291
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 9.46,
+  "AxolotlWorks": 59.73,
+  "QuipuQuantum": 30.45,
+  "Cash": 0.36
+}
+
+====================================================================================================
+
+Ground truth — Subject 906 (t=50)
+Prices: PapayaTech=$1.076426, AxolotlWorks=$1.051525, QuipuQuantum=$1.100110
+True spend (raw): PapayaTech=$57.050592, AxolotlWorks=$21.871714, QuipuQuantum=$20.902090
+Cash left (raw): $0.175604
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 57.05,
+  "AxolotlWorks": 21.87,
+  "QuipuQuantum": 20.9,
+  "Cash": 0.18
+}
+
+====================================================================================================
+
+Ground truth — Subject 907 (t=50)
+Prices: PapayaTech=$1.042753, AxolotlWorks=$5.649718, QuipuQuantum=$1.785714
+True spend (raw): PapayaTech=$20.125130, AxolotlWorks=$44.067797, QuipuQuantum=$35.000000
+Cash left (raw): $0.807073
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 20.13,
+  "AxolotlWorks": 44.07,
+  "QuipuQuantum": 35.0,
+  "Cash": 0.8
+}
+
+====================================================================================================
+
+Ground truth — Subject 908 (t=50)
+Prices: PapayaTech=$1.443001, AxolotlWorks=$2.336449, QuipuQuantum=$1.383126
+True spend (raw): PapayaTech=$32.323232, AxolotlWorks=$22.897196, QuipuQuantum=$44.536653
+Cash left (raw): $0.242919
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 32.32,
+  "AxolotlWorks": 22.9,
+  "QuipuQuantum": 44.54,
+  "Cash": 0.24
+}
+
+====================================================================================================
+
+Ground truth — Subject 909 (t=50)
+Prices: PapayaTech=$1.037344, AxolotlWorks=$5.319149, QuipuQuantum=$1.218027
+True spend (raw): PapayaTech=$12.551867, AxolotlWorks=$71.808511, QuipuQuantum=$15.347138
+Cash left (raw): $0.292485
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 12.55,
+  "AxolotlWorks": 71.81,
+  "QuipuQuantum": 15.35,
+  "Cash": 0.29
+}
+
+====================================================================================================
+
+Ground truth — Subject 910 (t=50)
+Prices: PapayaTech=$1.400560, AxolotlWorks=$1.226994, QuipuQuantum=$1.006036
+True spend (raw): PapayaTech=$38.795518, AxolotlWorks=$28.343558, QuipuQuantum=$32.696177
+Cash left (raw): $0.164746
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 38.8,
+  "AxolotlWorks": 28.34,
+  "QuipuQuantum": 32.7,
+  "Cash": 0.16
+}
+
+====================================================================================================
+
+Ground truth — Subject 911 (t=50)
+Prices: PapayaTech=$1.008065, AxolotlWorks=$1.038422, QuipuQuantum=$1.587302
+True spend (raw): PapayaTech=$26.814516, AxolotlWorks=$30.218069, QuipuQuantum=$42.698413
+Cash left (raw): $0.269003
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 26.81,
+  "AxolotlWorks": 30.22,
+  "QuipuQuantum": 42.7,
+  "Cash": 0.27
+}
+
+====================================================================================================
+
+Ground truth — Subject 912 (t=50)
+Prices: PapayaTech=$1.449275, AxolotlWorks=$1.085776, QuipuQuantum=$5.347594
+True spend (raw): PapayaTech=$28.985507, AxolotlWorks=$70.575461, QuipuQuantum=$0.000000
+Cash left (raw): $0.439031
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 28.99,
+  "AxolotlWorks": 70.58,
+  "QuipuQuantum": 0.0,
+  "Cash": 0.43
+}
+
+====================================================================================================
+
+Ground truth — Subject 913 (t=50)
+Prices: PapayaTech=$5.952381, AxolotlWorks=$2.304147, QuipuQuantum=$1.522070
+True spend (raw): PapayaTech=$8.928571, AxolotlWorks=$47.004608, QuipuQuantum=$43.226788
+Cash left (raw): $0.840032
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 8.93,
+  "AxolotlWorks": 47.0,
+  "QuipuQuantum": 43.23,
+  "Cash": 0.84
+}
+
+====================================================================================================
+
+Ground truth — Subject 914 (t=50)
+Prices: PapayaTech=$1.869159, AxolotlWorks=$1.019368, QuipuQuantum=$1.189061
+True spend (raw): PapayaTech=$45.420561, AxolotlWorks=$25.178389, QuipuQuantum=$29.131986
+Cash left (raw): $0.269064
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 45.42,
+  "AxolotlWorks": 25.18,
+  "QuipuQuantum": 29.13,
+  "Cash": 0.27
+}
+
+====================================================================================================
+
+Ground truth — Subject 915 (t=50)
+Prices: PapayaTech=$1.886792, AxolotlWorks=$1.328021, QuipuQuantum=$5.050505
+True spend (raw): PapayaTech=$54.716981, AxolotlWorks=$44.621514, QuipuQuantum=$0.000000
+Cash left (raw): $0.661505
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 54.72,
+  "AxolotlWorks": 44.62,
+  "QuipuQuantum": 0.0,
+  "Cash": 0.66
+}
+
+====================================================================================================
+
+Ground truth — Subject 916 (t=50)
+Prices: PapayaTech=$3.472222, AxolotlWorks=$6.060606, QuipuQuantum=$1.302083
+True spend (raw): PapayaTech=$67.708333, AxolotlWorks=$0.606061, QuipuQuantum=$31.510417
+Cash left (raw): $0.175189
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 67.71,
+  "AxolotlWorks": 0.61,
+  "QuipuQuantum": 31.51,
+  "Cash": 0.17
+}
+
+====================================================================================================
+
+Ground truth — Subject 917 (t=50)
+Prices: PapayaTech=$1.168224, AxolotlWorks=$3.355705, QuipuQuantum=$8.264463
+True spend (raw): PapayaTech=$46.728972, AxolotlWorks=$33.892617, QuipuQuantum=$19.008264
+Cash left (raw): $0.370146
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 46.73,
+  "AxolotlWorks": 33.89,
+  "QuipuQuantum": 19.01,
+  "Cash": 0.37
+}
+
+====================================================================================================
+
+Ground truth — Subject 918 (t=50)
+Prices: PapayaTech=$2.237136, AxolotlWorks=$1.135074, QuipuQuantum=$1.094092
+True spend (raw): PapayaTech=$45.413870, AxolotlWorks=$29.057889, QuipuQuantum=$25.382932
+Cash left (raw): $0.145309
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 45.41,
+  "AxolotlWorks": 29.06,
+  "QuipuQuantum": 25.38,
+  "Cash": 0.15
+}
+
+====================================================================================================
+
+Ground truth — Subject 919 (t=50)
+Prices: PapayaTech=$1.506024, AxolotlWorks=$1.872659, QuipuQuantum=$1.381215
+True spend (raw): PapayaTech=$28.915663, AxolotlWorks=$39.887640, QuipuQuantum=$30.939227
+Cash left (raw): $0.257470
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 28.92,
+  "AxolotlWorks": 39.89,
+  "QuipuQuantum": 30.94,
+  "Cash": 0.25
+}
+
+====================================================================================================
+
+Ground truth — Subject 920 (t=50)
+Prices: PapayaTech=$1.472754, AxolotlWorks=$1.002004, QuipuQuantum=$5.988024
+True spend (raw): PapayaTech=$22.091311, AxolotlWorks=$17.835671, QuipuQuantum=$59.880240
+Cash left (raw): $0.192778
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 22.09,
+  "AxolotlWorks": 17.84,
+  "QuipuQuantum": 59.88,
+  "Cash": 0.19
+}
+
+====================================================================================================
+
+Ground truth — Subject 921 (t=50)
+Prices: PapayaTech=$8.620690, AxolotlWorks=$1.187648, QuipuQuantum=$1.328021
+True spend (raw): PapayaTech=$41.379310, AxolotlWorks=$28.266033, QuipuQuantum=$30.013280
+Cash left (raw): $0.341376
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 41.38,
+  "AxolotlWorks": 28.27,
+  "QuipuQuantum": 30.01,
+  "Cash": 0.34
+}
+
+====================================================================================================
+
+Ground truth — Subject 922 (t=50)
+Prices: PapayaTech=$6.289308, AxolotlWorks=$1.410437, QuipuQuantum=$1.132503
+True spend (raw): PapayaTech=$33.333333, AxolotlWorks=$26.234133, QuipuQuantum=$39.977350
+Cash left (raw): $0.455184
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 33.33,
+  "AxolotlWorks": 26.23,
+  "QuipuQuantum": 39.98,
+  "Cash": 0.46
+}
+
+====================================================================================================
+
+Ground truth — Subject 923 (t=50)
+Prices: PapayaTech=$3.875969, AxolotlWorks=$1.897533, QuipuQuantum=$1.445087
+True spend (raw): PapayaTech=$29.457364, AxolotlWorks=$27.134725, QuipuQuantum=$43.063584
+Cash left (raw): $0.344327
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 29.46,
+  "AxolotlWorks": 27.13,
+  "QuipuQuantum": 43.06,
+  "Cash": 0.35
+}

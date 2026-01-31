@@ -1,0 +1,3 @@
+slice,Afriat_X_coverage,Afriat_avg_width,Afriat_median_width,Afriat_avg_dist_to_band,Narrative_mean_abs_error_X,Afriat_point_mean_abs_error_X
+OOS t=26..49,0.5416666666666666,13.928333333333333,10.235,12.203333333333333,2.654166666666667,20.58791666666667
+t=50 only,0.0,8.9,8.9,13.19,4.41,18.28

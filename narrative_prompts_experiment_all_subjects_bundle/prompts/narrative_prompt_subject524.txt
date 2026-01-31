@@ -1,0 +1,77 @@
+Investor Journey — Subject 524
+
+You are an investor running a repeated portfolio-allocation exercise.
+There are 3 stocks. Each trial you receive a fresh $100 and allocate it across these stocks.
+For now ignore macro considerations and focus only on this portfolio/journey of decisions.
+
+Stocks:
+  - PapayaTech (ticker: X)
+  - AxolotlWorks (ticker: Y)
+  - QuipuQuantum (ticker: Z)
+
+Interpretation:
+  - Each trial t has stock prices p_t = (pX, pY, pZ).
+  - The history below records how many dollars you invested in each stock that trial.
+  - Each trial you have $100 total; due to rounding, there may be a small cash leftover.
+
+Your past 49 trials (t = 1..49):
+t=01  prices: PapayaTech=$1.1481, AxolotlWorks=$1.0215, QuipuQuantum=$1.1086  | spend: PapayaTech=$32.49, AxolotlWorks=$30.34, QuipuQuantum=$36.92  | cash=$0.25
+t=02  prices: PapayaTech=$1.0989, AxolotlWorks=$1.3351, QuipuQuantum=$5.8140  | spend: PapayaTech=$52.86, AxolotlWorks=$46.86, QuipuQuantum=$0.00  | cash=$0.28
+t=03  prices: PapayaTech=$1.0627, AxolotlWorks=$1.8904, QuipuQuantum=$2.5000  | spend: PapayaTech=$21.15, AxolotlWorks=$36.48, QuipuQuantum=$42.00  | cash=$0.37
+t=04  prices: PapayaTech=$1.6750, AxolotlWorks=$1.6207, QuipuQuantum=$1.9646  | spend: PapayaTech=$29.82, AxolotlWorks=$33.71, QuipuQuantum=$36.15  | cash=$0.32
+t=05  prices: PapayaTech=$1.0799, AxolotlWorks=$1.0471, QuipuQuantum=$1.0707  | spend: PapayaTech=$33.05, AxolotlWorks=$32.98, QuipuQuantum=$33.83  | cash=$0.14
+t=06  prices: PapayaTech=$1.6611, AxolotlWorks=$1.7241, QuipuQuantum=$1.3441  | spend: PapayaTech=$35.05, AxolotlWorks=$36.21, QuipuQuantum=$28.49  | cash=$0.25
+t=07  prices: PapayaTech=$1.6367, AxolotlWorks=$3.1447, QuipuQuantum=$1.2837  | spend: PapayaTech=$27.33, AxolotlWorks=$50.63, QuipuQuantum=$21.57  | cash=$0.47
+t=08  prices: PapayaTech=$2.6385, AxolotlWorks=$1.8553, QuipuQuantum=$1.1086  | spend: PapayaTech=$0.26, AxolotlWorks=$42.49, QuipuQuantum=$56.87  | cash=$0.38
+t=09  prices: PapayaTech=$5.5866, AxolotlWorks=$1.3316, QuipuQuantum=$1.1099  | spend: PapayaTech=$1.68, AxolotlWorks=$47.80, QuipuQuantum=$50.06  | cash=$0.47
+t=10  prices: PapayaTech=$1.1274, AxolotlWorks=$2.8090, QuipuQuantum=$1.2210  | spend: PapayaTech=$36.64, AxolotlWorks=$39.33, QuipuQuantum=$23.69  | cash=$0.35
+t=11  prices: PapayaTech=$1.9685, AxolotlWorks=$1.9608, QuipuQuantum=$1.9881  | spend: PapayaTech=$32.48, AxolotlWorks=$33.92, QuipuQuantum=$33.40  | cash=$0.20
+t=12  prices: PapayaTech=$2.9070, AxolotlWorks=$1.1403, QuipuQuantum=$1.1669  | spend: PapayaTech=$39.53, AxolotlWorks=$40.59, QuipuQuantum=$19.72  | cash=$0.15
+t=13  prices: PapayaTech=$1.7668, AxolotlWorks=$1.8939, QuipuQuantum=$1.4025  | spend: PapayaTech=$34.81, AxolotlWorks=$37.12, QuipuQuantum=$27.77  | cash=$0.30
+t=14  prices: PapayaTech=$2.1552, AxolotlWorks=$1.1013, QuipuQuantum=$1.3333  | spend: PapayaTech=$1.51, AxolotlWorks=$45.04, QuipuQuantum=$53.07  | cash=$0.38
+t=15  prices: PapayaTech=$1.0395, AxolotlWorks=$1.3699, QuipuQuantum=$1.6920  | spend: PapayaTech=$41.79, AxolotlWorks=$21.37, QuipuQuantum=$36.55  | cash=$0.29
+t=16  prices: PapayaTech=$1.5129, AxolotlWorks=$1.0363, QuipuQuantum=$1.9724  | spend: PapayaTech=$29.80, AxolotlWorks=$42.90, QuipuQuantum=$27.02  | cash=$0.27
+t=17  prices: PapayaTech=$1.4837, AxolotlWorks=$2.8818, QuipuQuantum=$1.4347  | spend: PapayaTech=$25.52, AxolotlWorks=$49.28, QuipuQuantum=$24.82  | cash=$0.38
+t=18  prices: PapayaTech=$1.6260, AxolotlWorks=$1.0823, QuipuQuantum=$1.2723  | spend: PapayaTech=$25.53, AxolotlWorks=$54.98, QuipuQuantum=$19.34  | cash=$0.15
+t=19  prices: PapayaTech=$1.3298, AxolotlWorks=$1.6287, QuipuQuantum=$6.4516  | spend: PapayaTech=$97.61, AxolotlWorks=$0.33, QuipuQuantum=$1.29  | cash=$0.78
+t=20  prices: PapayaTech=$2.5189, AxolotlWorks=$1.0204, QuipuQuantum=$1.3850  | spend: PapayaTech=$50.88, AxolotlWorks=$20.61, QuipuQuantum=$28.12  | cash=$0.39
+t=21  prices: PapayaTech=$1.6393, AxolotlWorks=$1.8149, QuipuQuantum=$1.4749  | spend: PapayaTech=$48.85, AxolotlWorks=$21.05, QuipuQuantum=$29.79  | cash=$0.30
+t=22  prices: PapayaTech=$2.5381, AxolotlWorks=$1.0449, QuipuQuantum=$1.7271  | spend: PapayaTech=$18.27, AxolotlWorks=$46.60, QuipuQuantum=$34.89  | cash=$0.23
+t=23  prices: PapayaTech=$2.4938, AxolotlWorks=$1.0965, QuipuQuantum=$1.9685  | spend: PapayaTech=$0.00, AxolotlWorks=$99.67, QuipuQuantum=$0.00  | cash=$0.33
+t=24  prices: PapayaTech=$1.7452, AxolotlWorks=$7.6336, QuipuQuantum=$1.4535  | spend: PapayaTech=$0.17, AxolotlWorks=$0.00, QuipuQuantum=$99.27  | cash=$0.55
+t=25  prices: PapayaTech=$1.5267, AxolotlWorks=$2.1231, QuipuQuantum=$2.0833  | spend: PapayaTech=$45.80, AxolotlWorks=$12.31, QuipuQuantum=$41.46  | cash=$0.43
+t=26  prices: PapayaTech=$1.9455, AxolotlWorks=$1.2376, QuipuQuantum=$1.1710  | spend: PapayaTech=$44.55, AxolotlWorks=$28.22, QuipuQuantum=$27.05  | cash=$0.18
+t=27  prices: PapayaTech=$1.3021, AxolotlWorks=$1.2136, QuipuQuantum=$8.6207  | spend: PapayaTech=$50.13, AxolotlWorks=$49.64, QuipuQuantum=$0.00  | cash=$0.23
+t=28  prices: PapayaTech=$3.8462, AxolotlWorks=$1.3928, QuipuQuantum=$1.0917  | spend: PapayaTech=$0.77, AxolotlWorks=$56.55, QuipuQuantum=$42.47  | cash=$0.22
+t=29  prices: PapayaTech=$1.1274, AxolotlWorks=$1.2579, QuipuQuantum=$2.7548  | spend: PapayaTech=$46.79, AxolotlWorks=$53.08, QuipuQuantum=$0.00  | cash=$0.13
+t=30  prices: PapayaTech=$1.9802, AxolotlWorks=$1.6892, QuipuQuantum=$1.3514  | spend: PapayaTech=$39.41, AxolotlWorks=$33.45, QuipuQuantum=$26.89  | cash=$0.26
+t=31  prices: PapayaTech=$2.4155, AxolotlWorks=$1.3441, QuipuQuantum=$1.0881  | spend: PapayaTech=$0.00, AxolotlWorks=$56.18, QuipuQuantum=$43.42  | cash=$0.40
+t=32  prices: PapayaTech=$2.4331, AxolotlWorks=$1.7762, QuipuQuantum=$1.0965  | spend: PapayaTech=$0.00, AxolotlWorks=$44.23, QuipuQuantum=$55.48  | cash=$0.29
+t=33  prices: PapayaTech=$1.1876, AxolotlWorks=$1.0571, QuipuQuantum=$1.2180  | spend: PapayaTech=$34.20, AxolotlWorks=$30.44, QuipuQuantum=$35.20  | cash=$0.15
+t=34  prices: PapayaTech=$1.1038, AxolotlWorks=$7.0922, QuipuQuantum=$1.8349  | spend: PapayaTech=$37.53, AxolotlWorks=$0.00, QuipuQuantum=$62.20  | cash=$0.27
+t=35  prices: PapayaTech=$2.9070, AxolotlWorks=$1.8248, QuipuQuantum=$4.2194  | spend: PapayaTech=$0.58, AxolotlWorks=$98.54, QuipuQuantum=$0.84  | cash=$0.03
+t=36  prices: PapayaTech=$1.0787, AxolotlWorks=$1.6556, QuipuQuantum=$2.2472  | spend: PapayaTech=$32.15, AxolotlWorks=$25.83, QuipuQuantum=$41.80  | cash=$0.23
+t=37  prices: PapayaTech=$6.2500, AxolotlWorks=$1.1737, QuipuQuantum=$6.8027  | spend: PapayaTech=$0.00, AxolotlWorks=$99.18, QuipuQuantum=$0.00  | cash=$0.82
+t=38  prices: PapayaTech=$1.0438, AxolotlWorks=$1.6750, QuipuQuantum=$1.2453  | spend: PapayaTech=$26.30, AxolotlWorks=$42.04, QuipuQuantum=$31.38  | cash=$0.27
+t=39  prices: PapayaTech=$1.3369, AxolotlWorks=$1.4577, QuipuQuantum=$4.4843  | spend: PapayaTech=$46.52, AxolotlWorks=$52.92, QuipuQuantum=$0.00  | cash=$0.56
+t=40  prices: PapayaTech=$1.0471, AxolotlWorks=$1.9763, QuipuQuantum=$1.0235  | spend: PapayaTech=$50.89, AxolotlWorks=$0.00, QuipuQuantum=$48.93  | cash=$0.18
+t=41  prices: PapayaTech=$1.3870, AxolotlWorks=$3.6364, QuipuQuantum=$1.8450  | spend: PapayaTech=$61.03, AxolotlWorks=$0.73, QuipuQuantum=$37.82  | cash=$0.42
+t=42  prices: PapayaTech=$4.5045, AxolotlWorks=$1.1481, QuipuQuantum=$1.6667  | spend: PapayaTech=$0.00, AxolotlWorks=$61.54, QuipuQuantum=$38.17  | cash=$0.29
+t=43  prices: PapayaTech=$1.4184, AxolotlWorks=$1.3680, QuipuQuantum=$1.3158  | spend: PapayaTech=$30.21, AxolotlWorks=$31.46, QuipuQuantum=$38.03  | cash=$0.30
+t=44  prices: PapayaTech=$1.4144, AxolotlWorks=$4.7393, QuipuQuantum=$5.0000  | spend: PapayaTech=$99.29, AxolotlWorks=$0.00, QuipuQuantum=$0.00  | cash=$0.71
+t=45  prices: PapayaTech=$5.8140, AxolotlWorks=$1.2755, QuipuQuantum=$2.2422  | spend: PapayaTech=$0.00, AxolotlWorks=$62.88, QuipuQuantum=$36.55  | cash=$0.57
+t=46  prices: PapayaTech=$1.6722, AxolotlWorks=$1.5823, QuipuQuantum=$1.6722  | spend: PapayaTech=$32.94, AxolotlWorks=$33.86, QuipuQuantum=$33.11  | cash=$0.09
+t=47  prices: PapayaTech=$5.5866, AxolotlWorks=$1.0288, QuipuQuantum=$1.0142  | spend: PapayaTech=$0.00, AxolotlWorks=$42.90, QuipuQuantum=$56.90  | cash=$0.20
+t=48  prices: PapayaTech=$6.0606, AxolotlWorks=$1.1377, QuipuQuantum=$2.4938  | spend: PapayaTech=$0.00, AxolotlWorks=$57.79, QuipuQuantum=$41.90  | cash=$0.31
+t=49  prices: PapayaTech=$1.1038, AxolotlWorks=$1.3004, QuipuQuantum=$1.6181  | spend: PapayaTech=$35.76, AxolotlWorks=$29.78, QuipuQuantum=$34.30  | cash=$0.16
+
+Now the 50th trial arrives.
+t=50  prices: PapayaTech=$3.6630, AxolotlWorks=$4.5662, QuipuQuantum=$1.5924
+
+Task:
+  Predict how you allocate the $100 on trial t=50, in dollar spend across the 3 stocks.
+  Return ONLY a single JSON object (no extra text), with dollar amounts rounded to cents.
+  Constraints: all amounts >= 0; PapayaTech + AxolotlWorks + QuipuQuantum + Cash == 100.00 (allow +/- $0.02 rounding).
+
+Return JSON in exactly this shape:
+  {"PapayaTech": 0.00, "AxolotlWorks": 0.00, "QuipuQuantum": 0.00, "Cash": 0.00}

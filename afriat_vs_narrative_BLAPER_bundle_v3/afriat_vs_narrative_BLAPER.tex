@@ -1,0 +1,455 @@
+\documentclass[11pt]{article}
+
+% --- Page / typography ---
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% --- Math / tables / figures ---
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{caption}
+
+% --- Lists / verbatim ---
+\usepackage{enumitem}
+\usepackage{fancyvrb}
+
+% --- Color / callouts ---
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+
+% --- Links ---
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  urlcolor=blue!60!black,
+  citecolor=blue!60!black
+}
+
+\graphicspath{{figures/}}
+
+% --- Callout box ---
+\newtcolorbox{takeawaybox}{
+  colback=blue!3,
+  colframe=blue!45!black,
+  boxrule=0.6pt,
+  arc=2pt,
+  left=10pt,
+  right=10pt,
+  top=7pt,
+  bottom=7pt
+}
+
+% --- Convenience ---
+\newcommand{\X}{\textsc{PapayaTech}}
+\newcommand{\Y}{\textsc{AxolotlWorks}}
+\newcommand{\Z}{\textsc{QuipuQuantum}}
+
+\title{\textbf{Afriat Sets vs Narrative Rules}\\[0.15em]
+\large Counterfactual Prediction in a Portfolio Choice Experiment\\
+\large (Paper + Dashboard ``Blaper'')}
+\author{}
+\date{\vspace{-1.3em}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper studies counterfactual prediction in a repeated portfolio-allocation environment where each subject allocates a fresh \$100 across three state-contingent assets under changing price vectors.
+I compare two paradigms:
+(i) Afriat/Varian revealed preference, which delivers a concave-utility \emph{correspondence} of counterfactual optimizers, and
+(ii) a narrative/procedural approach that predicts actions via simple, interpretable rules learned from the subject's past decisions.
+To evaluate Afriat fairly, I treat it as set-valued and evaluate its counterfactual correspondence as a \emph{set}: for each asset I project the correspondence onto that asset's dollar spend and compute an Afriat band plus a distance-to-band metric.
+Across 154 subjects (training on trials 1--25; evaluation at trial 50), these projected Afriat sets are often sharp (median widths around \$4--\$5) but frequently exclude realized behavior (coverage rates around 19--23\% depending on the asset).
+On point prediction (train 1--49, predict 50), narrative rule inference materially outperforms Afriat variants in mean $L^1$ error.
+\end{abstract}
+
+\vspace{-0.2em}
+\begin{takeawaybox}
+\textbf{Main synthesis.} \emph{Afriat is a constraint; narratives are a selector.}
+Afriat provides disciplined outer structure for counterfactuals (a feasible set).
+Narrative procedures provide a selection principle and capture heterogeneity in how subjects behave.
+In these data, the main failure mode is often not tie-breaking inside a correct Afriat set, but the Afriat set missing the realized action.
+\end{takeawaybox}
+
+\tableofcontents
+
+
+\section{Reading guide and a translation table}
+This paper is intentionally bilingual.
+
+\paragraph{If you come from revealed preference:} start with Section~\ref{sec:tasks} (the prediction games) and Section~\ref{sec:narratives} (narrative rules as model selection). Point prediction at $t=50$ is where Afriat is forced to choose a point (Section~\ref{sec:point}).
+
+\paragraph{If you come from LLMs / AI:} start with Section~\ref{sec:afriat} for what Afriat is doing (and why it produces sets), then Section~\ref{sec:set} for the set-diagnostics dashboard.
+
+\begin{table}[h]\centering
+\caption{A Rosetta stone: revealed preference vs prompting language}\label{tab:rosetta}
+\begin{tabular}{p{0.28\textwidth}p{0.28\textwidth}p{0.36\textwidth}}
+\toprule
+Econometrics / RP & Prompting / ML analogue & What we do here \\
+\midrule
+Observation (trial) $t$ & One row in the prompt ``history'' & \texttt{t=.. prices ... | spend ...} \\
+Covariates (prices $p_t$) & Context tokens & price vector shown each period \\
+Action (bundle $x_t$) & Model output (JSON) & dollar allocation across three ``stocks'' \\
+Counterfactual query price $p_0$ & Test-time query & reveal true prices at $t=50$; ask for allocation \\
+Set / partial identification & Non-uniqueness & Afriat gives a correspondence; we score via bands \\
+Model selection & Program selection & fixed rule library; personalize via cross-validation \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]\centering
+\includegraphics[width=0.9\textwidth]{task_overview.png}
+\caption{Two prediction games used in the BLAPER. Task A: train 1--49, predict 50 (one-step). Task B: train 1--25, generalize to later price regimes (26--50); the set-diagnostics focus on $t=50$.}\label{fig:tasks}
+\end{figure}
+
+
+\section*{Glossary (quick definitions)}
+\addcontentsline{toc}{section}{Glossary}
+\begin{description}[leftmargin=2.2em,style=nextline]
+\item[GARP] Generalized Axiom of Revealed Preference: no cycles in the revealed-preference relation (a nonparametric test of concave utility rationalizability).
+\item[Afriat inequalities] Linear inequalities whose feasibility is equivalent to GARP; a feasible solution constructs a concave utility that rationalizes the data.
+\item[Demand correspondence] A set of optimal bundles at a given price vector. For piecewise-linear utilities, the correspondence is typically set-valued.
+\item[Slack $\delta$ or $\delta_t$] Additive relaxations that ensure feasibility when exact GARP fails. $\delta_t$ is observation-specific.
+\item[Afriat band] For a given counterfactual price vector and a given asset, the interval of feasible counterfactual spends implied by Afriat (after projecting the correspondence onto that coordinate).
+\item[Coverage] Fraction of subjects whose realized counterfactual spend lies inside the Afriat band.
+\item[Distance-to-band] If the truth lies outside the Afriat band, the distance (in dollars) to the nearest band endpoint; 0 if covered.
+\item[Narrative rule] A compact subject-specific procedure (e.g., equal-dollar, kNN memory, power-share) inferred from that subject's past choices and then applied to the counterfactual prices.
+\item[$L^1$ error] For point prediction, the sum of absolute dollar errors across the three spends at $t=50$.
+\end{description}
+
+\section{Data provenance and experimental design}
+\subsection{Origin of the experiment}
+The data come from the portfolio-choice experiment of Ahn, Choi, Gale, and Kariv (2014).\cite{ahn2014}
+Subjects repeatedly choose portfolios over three Arrow securities (three states of nature).
+State 2 has known probability $\pi_2=1/3$, while states 1 and 3 have unknown probabilities $\pi_1,\pi_3\ge 0$ with $\pi_1+\pi_3=2/3$.\cite[p.~196]{ahn2014}
+In each decision problem the subject chooses a nonnegative portfolio $x=(x_1,x_2,x_3)\ge 0$ on a linear budget set $p\cdot x = 1$ (Ahn et al.'s normalization).\cite[p.~196]{ahn2014}
+
+\subsection{Experimental procedure (what matters here)}
+Ahn et al. report:
+\begin{itemize}[leftmargin=1.4em]
+\item 154 subjects at UC Berkeley; each session consisted of \textbf{50 independent decision problems}.\cite[p.~200]{ahn2014}
+\item Each budget set was generated with \textbf{intercepts between 0 and 100 tokens}, and \textbf{at least one intercept greater than 50 tokens}.\cite[p.~200]{ahn2014}
+\item Choices were restricted to the budget plane and recorded via a graphical ``point-and-click'' interface.\cite[p.~200]{ahn2014}
+\item Payoffs: one decision round was selected at random for payment.\cite[p.~201]{ahn2014}
+\end{itemize}
+
+\subsection{Clean file used in this paper}
+This paper uses the cleaned dataset \texttt{rationalitydata3goods.csv} with 7700 rows (154 subjects $\times$ 50 trials).
+Variables:
+\begin{itemize}[leftmargin=1.4em]
+\item \texttt{id}: subject identifier; \texttt{obs}: trial index $t\in\{1,\dots,50\}$.
+\item \texttt{x,y,z}: chosen quantities $(x_{Xt},x_{Yt},x_{Zt})$.
+\item \texttt{xa,ya,za}: budget intercepts (max feasible quantity of each good if all budget is allocated to that good).
+\item \texttt{px,py,pz}: prices, with $\texttt{px}\approx 100/\texttt{xa}$ etc.
+\end{itemize}
+Empirically, the intercept constraints match the protocol: across goods, intercepts lie in $[10,100]$ and each trial has at least one intercept $\ge 50$.
+Because choices are recorded on a discrete interface, budget feasibility holds up to small rounding slack (median slack $\approx 0.28$ dollars on a \$100 budget in this cleaned file).
+
+\subsection{Narrative re-framing used for prompts}
+For prediction we convert each trial into dollar spends:
+\[
+s_{it} = p_{it} x_{it},\qquad i\in\{X,Y,Z\},
+\]
+and define leftover cash $c_t = 100 - (s_{Xt}+s_{Yt}+s_{Zt})$.
+We re-label goods as ``stocks'' purely to encourage general reasoning in language models:
+\[
+X=\X,\quad Y=\Y,\quad Z=\Z.
+\]
+This is a change of labels/units only.
+
+\section{What is being predicted?}
+Each subject faces trials $t=1,\dots,49$ with prices $p_t=(p_{Xt},p_{Yt},p_{Zt})$ and allocates a fresh budget \$100 across the three stocks, yielding dollar spends $(s_{Xt},s_{Yt},s_{Zt})$ and leftover cash.
+A new price vector arrives at $t=50$; the goal is counterfactual prediction.
+
+We use two complementary evaluation tracks:
+\begin{enumerate}[leftmargin=1.4em]
+\item \textbf{Set-based Afriat diagnostics (train 1--25, evaluate at 50).} Fit Afriat with observation-specific slack $\delta_t$ on early history. Compute the counterfactual demand correspondence at $t=50$ and evaluate it as a set (bands, coverage, distance-to-band).
+\item \textbf{Point prediction benchmark (train 1--49, predict 50).} Predict the full $t=50$ allocation and evaluate with $L^1$ error (sum of absolute errors across the three spends).
+\end{enumerate}
+
+\section{Methods}
+\subsection{Mapping dollars to quantities (cash as a fourth good)}
+Afriat theory is stated in quantities. We map dollars to quantities and add cash as a fourth good with price 1:
+\[
+q_{it}=\frac{s_{it}}{p_{it}},\qquad
+x_t=(q_{Xt},q_{Yt},q_{Zt},c_t),\qquad
+\tilde p_t=(p_{Xt},p_{Yt},p_{Zt},1),
+\]
+so $\tilde p_t\cdot x_t = 100$.
+
+\subsection{Afriat with observation-specific slack $\delta_t$}
+To accommodate violations, we use the relaxation:
+\[
+u_s \le u_t + \lambda_t\, \tilde p_t\cdot(x_s-x_t) + \delta_t,\qquad \delta_t\ge 0,
+\]
+estimated by minimizing $\sum_t \delta_t$ subject to these inequalities (an LP).
+Given $(u,\lambda,\delta)$, define the concave envelope
+\[
+U(x)=\min_t\{u_t+\delta_t+\lambda_t\,\tilde p_t\cdot(x-x_t)\}.
+\]
+At new prices $\tilde p_0$, the counterfactual correspondence is
+\[
+D(\tilde p_0)=\arg\max_{x\ge 0,\;\tilde p_0\cdot x\le 100} U(x),
+\]
+which is typically set-valued.
+
+\subsection{Set evaluation via projected bands}
+Rather than forcing Afriat into a single point, we evaluate it as a set.
+For each stock $i\in\{X,Y,Z\}$, we project $D(\tilde p_{50})$ onto the spend coordinate and compute the band $[\min S_i,\max S_i]$ under near-optimality.
+We report:
+(i) coverage, (ii) band width, (iii) distance-to-band.
+
+
+\subsection{Narratives as personalized procedures}\label{sec:narratives}
+A narrative model is a compact subject-specific procedure mapping contexts (prices) to actions (allocations).
+We restrict to a small interpretable \emph{rule library} and select the best rule per subject via cross-validation on that subject's history.
+
+\paragraph{Rule library (explicit definitions).}
+Let prices be $(p_X,p_Y,p_Z)$ and the per-trial budget be 100.
+We consider:
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Equal-dollar:} $s_X=s_Y=s_Z=100/3$.
+\item \textbf{Equal-share:} equal quantities; in dollars $s_i = 100\cdot p_i/(p_X+p_Y+p_Z)$.
+\item \textbf{Power-share:} $s_i = 100\cdot w_i$ with $w_i \propto p_i^{-\alpha}$ (price sensitivity controlled by $\alpha$; $\alpha=0$ yields equal-dollar).
+\item \textbf{kNN memory:} predict as an (optionally weighted) average of historical allocations at the $K$ nearest historical price vectors.
+\item \textbf{Dominance (all-in):} allocate (nearly) all budget to one stock (e.g., the cheapest).
+\end{itemize}
+The goal is not to maximize flexible fit; it is to produce a \emph{procedure you can read} and compare to Afriat's disciplined feasibility set.
+
+
+\section{Results}
+
+
+\begin{table}[t]\centering
+\caption{Afriat as a set at $t=50$ (trained on $t=1..25$): stock-by-stock diagnostics}\label{tab:set}
+\begin{tabular}{lrrrrrr}
+\toprule
+Stock & Coverage & Med. width & Med. dist & Mean dist$\mid$outside & Narrative med. AE & Narrative better$\mid$outside \\
+\midrule
+PapayaTech & 23.4\% & 4.70 & 11.14 & 22.27 & 11.48 & 61.0\% \\
+AxolotlWorks & 20.1\% & 4.42 & 9.53 & 20.60 & 10.57 & 52.0\% \\
+QuipuQuantum & 18.8\% & 4.39 & 8.02 & 18.57 & 9.49 & 61.6\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]\centering
+\caption{Narrative heterogeneity: families inferred from early history ($t=1..25$)}\label{tab:types}
+\begin{tabular}{lrr}
+\toprule
+Narrative family (selected from $t=1..25$) & Count & Share \\
+\midrule
+Power-share (smooth) & 61 & 39.6\% \\
+Case-based (kNN memory) & 41 & 26.6\% \\
+Equal-dollar & 34 & 22.1\% \\
+Equal-share & 13 & 8.4\% \\
+Dominance (all-in) & 5 & 3.2\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{figure}[t]\centering
+\includegraphics[width=0.75\textwidth]{narrative_families_bar.png}
+\caption{Narrative family counts (selected using early history $t=1..25$).}\label{fig:narr_types}
+\end{figure}
+
+\subsection{Afriat set diagnostics by stock}
+
+Figure~\ref{fig:set_papayatech}--\ref{fig:set_quipu} show the distribution of distance-to-band and band width, and how these diagnostics vary with counterfactual price dispersion (ratio of max to min price at $t=50$).
+
+\begin{figure}[t]\centering
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{papayatech_dist_to_band_hist_t50.png}
+\caption{Distance-to-band (t=50)}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{papayatech_band_width_hist_t50.png}
+\caption{Band width (t=50)}
+\end{subfigure}
+
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{papayatech_dist_vs_ratio_t50.png}
+\caption{Distance vs price dispersion}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{papayatech_width_vs_ratio_t50.png}
+\caption{Width vs price dispersion}
+\end{subfigure}
+\caption{\X\ (PapayaTech / X): Afriat set diagnostics at $t=50$ (trained on $t=1..25$).}
+\label{fig:set_papayatech}
+\end{figure}
+
+\begin{figure}[t]\centering
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{axolotlworks_dist_to_band_hist_t50.png}
+\caption{Distance-to-band (t=50)}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{axolotlworks_band_width_hist_t50.png}
+\caption{Band width (t=50)}
+\end{subfigure}
+
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{axolotlworks_dist_vs_ratio_t50.png}
+\caption{Distance vs price dispersion}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{axolotlworks_width_vs_ratio_t50.png}
+\caption{Width vs price dispersion}
+\end{subfigure}
+\caption{\Y\ (AxolotlWorks / Y): Afriat set diagnostics at $t=50$ (trained on $t=1..25$).}
+\label{fig:set_axolotl}
+\end{figure}
+
+\begin{figure}[t]\centering
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{quipuquantum_dist_to_band_hist_t50.png}
+\caption{Distance-to-band (t=50)}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{quipuquantum_band_width_hist_t50.png}
+\caption{Band width (t=50)}
+\end{subfigure}
+
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{quipuquantum_dist_vs_ratio_t50.png}
+\caption{Distance vs price dispersion}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{quipuquantum_width_vs_ratio_t50.png}
+\caption{Width vs price dispersion}
+\end{subfigure}
+\caption{\Z\ (QuipuQuantum / Z): Afriat set diagnostics at $t=50$ (trained on $t=1..25$).}
+\label{fig:set_quipu}
+\end{figure}
+
+\subsection{Point prediction benchmark at $t=50$}
+
+
+\begin{table}[t]\centering\small
+\caption{Point prediction at $t=50$: narrative rules vs Afriat variants (154 subjects)}\label{tab:bench}
+\begin{tabular}{p{6.4cm}rrrrrr}
+\toprule
+Model & Mean $L^1$ & Median $L^1$ & 90th pct $L^1$ & Top-asset acc. & Near all-in pred. & True near all-in \\
+\midrule
+Rule-based (CV narrative rules) & 31.34 & 18.50 & 83.22 & 55.2\% & 4.5\% & 9.1\% \\
+Afriat per-t \ensuremath{\delta_t} + tie-break (closest to anchor) + 0.1-share grid & 47.80 & 31.82 & 115.88 & 53.9\% & 9.7\% & 9.1\% \\
+Baseline (mean-share scaling) & 52.51 & 33.82 & 134.34 & 44.2\% & 0.0\% & 9.1\% \\
+Afriat per-t \ensuremath{\delta_t} + 0.1-share postprocess & 52.66 & 43.67 & 111.56 & 49.4\% & 13.0\% & 9.1\% \\
+Afriat global \ensuremath{\delta} + 0.1-share postprocess & 58.70 & 53.43 & 121.65 & 45.5\% & 18.2\% & 9.1\% \\
+Afriat + per-t \ensuremath{\delta_t} (additive) & 58.76 & 50.73 & 127.07 & 52.6\% & 8.4\% & 9.1\% \\
+Afriat + global \ensuremath{\delta} (additive) & 64.15 & 58.72 & 134.62 & 44.2\% & 14.3\% & 9.1\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]\centering
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{t50_L1_hist_baseline_vs_rulebased.png}
+\caption{Baseline vs narrative: $L^1$ error}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{t50_L1_hist_afriat_vs_rulebased.png}
+\caption{Afriat vs narrative: $L^1$ error}
+\end{subfigure}
+\caption{Point prediction at $t=50$: distributions of $L^1$ error.}
+\label{fig:l1_hists}
+\end{figure}
+
+\begin{figure}[t]\centering
+\includegraphics[width=0.78\textwidth]{t50_L1_vs_afriat_slack_delta.png}
+\caption{$L^1$ error vs fitted Afriat slack at $t=50$: larger fitted slack correlates with worse counterfactual prediction.}
+\label{fig:l1_vs_slack}
+\end{figure}
+
+\begin{figure}[t]\centering
+\includegraphics[width=0.88\textwidth]{t50_L1_vs_ratio_baseline_vs_rulebased.png}
+\caption{$L^1$ error vs counterfactual price dispersion: baseline vs narrative.}
+\label{fig:l1_vs_ratio}
+\end{figure}
+
+\subsection{One-subject deep dive (Subject 920)}
+Figure~\ref{fig:subject920} illustrates a representative ``set miss'' case: the Afriat band for \X\ can be narrow yet far from the truth.
+
+\begin{figure}[t]\centering
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{subject_920_afriat_set_X.png}
+\caption{Afriat feasible set for $X$}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{subject_920_X_band_vs_truth.png}
+\caption{$X$ band vs truth (t=50)}
+\end{subfigure}
+
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{subject_920_X_band_width.png}
+\caption{$X$ band widths}
+\end{subfigure}\hfill
+\begin{subfigure}[t]{0.48\textwidth}\centering
+\includegraphics[width=\textwidth]{subject_920_L1_timeseries.png}
+\caption{Per-period $L^1$ errors}
+\end{subfigure}
+\caption{Subject 920: Afriat set vs realized behavior (PapayaTech / $X$).}
+\label{fig:subject920}
+\end{figure}
+
+\section{The dashboard companion (standalone HTML)}
+This ``blaper'' is shipped in two synchronized formats:
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{PDF (this document):} traditional academic narrative + figures/tables.
+\item \textbf{Standalone HTML dashboard:} the same content plus interactive browsing (stock selector, metric hover-glossary, and a subject explorer).
+\end{itemize}
+Open \texttt{afriat\_vs\_narrative\_BLAPER.html} to use the dashboard view offline.
+
+\section{Conclusion}
+Afriat delivers disciplined outer structure for counterfactuals, but counterfactual prediction is inherently a selection problem and, in procedural environments, often calls for procedural abstractions.
+Narrative rules provide interpretable, subject-specific procedures that predict well and help diagnose when the Afriat correspondence is missing the realized action.
+
+\appendix
+\section{Narrative prompt template (abridged)}
+\noindent The evaluation prompts follow a stable template. The full prompts include 49 history lines (t=1..49) and ask for a strict JSON prediction at t=50.
+
+\begin{Verbatim}[fontsize=\small]
+Investor Journey — Subject {ID}
+
+Stocks:
+  - PapayaTech (ticker: X)
+  - AxolotlWorks (ticker: Y)
+  - QuipuQuantum (ticker: Z)
+
+Your past 49 trials (t = 1..49):
+t=01 prices: X=$..., Y=$..., Z=$... | spend: X=$..., Y=$..., Z=$... | cash=$...
+...
+t=49 prices: X=$..., Y=$..., Z=$... | spend: X=$..., Y=$..., Z=$... | cash=$...
+
+Now the 50th trial arrives.
+t=50 prices: X=$pX50, Y=$pY50, Z=$pZ50
+
+Return ONLY a single JSON object:
+{"PapayaTech": 0.00, "AxolotlWorks": 0.00, "QuipuQuantum": 0.00, "Cash": 0.00}
+\end{Verbatim}
+
+\begin{thebibliography}{9}
+
+\bibitem{ahn2014}
+David Ahn, Syngjoo Choi, Douglas Gale, and Shachar Kariv.
+\newblock Estimating ambiguity aversion in a portfolio choice experiment.
+\newblock \emph{Quantitative Economics}, 5(2):195--223, 2014.
+
+\bibitem{afriat_1967}
+S.~N. Afriat.
+\newblock The construction of a utility function from expenditure data.
+\newblock \emph{International Economic Review}, 8(1):67--77, 1967.
+
+\bibitem{varian_1982}
+H.~R. Varian.
+\newblock The nonparametric approach to demand analysis.
+\newblock \emph{Econometrica}, 50(4):945--973, 1982.
+
+\end{thebibliography}
+
+\end{document}

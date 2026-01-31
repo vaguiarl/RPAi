@@ -1,0 +1,17 @@
+{
+  "n_subjects": 154,
+  "coverage_rate": 0.23376623376623376,
+  "mean_band_width": 9.48331168831169,
+  "median_band_width": 4.695,
+  "p90_band_width": 24.185000000000006,
+  "mean_dist_to_band": 17.06487012987013,
+  "median_dist_to_band": 11.145,
+  "p90_dist_to_band": 45.258000000000024,
+  "mean_dist_cond_outside": 22.271101694915252,
+  "outside_rate": 0.7662337662337663,
+  "narrative_mean_abs_err_X": 18.61103896103896,
+  "narrative_median_abs_err_X": 11.485,
+  "narrative_in_band_rate": 0.21428571428571427,
+  "corr_width_ratio": -0.2644308457211127,
+  "corr_dist_ratio": 0.29224938823174684
+}

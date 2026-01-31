@@ -1,0 +1,926 @@
+{
+  "108": {
+    "PapayaTech": 51.48,
+    "AxolotlWorks": 11.57,
+    "QuipuQuantum": 36.86,
+    "Cash": 0.09
+  },
+  "109": {
+    "PapayaTech": 24.68,
+    "AxolotlWorks": 54.1,
+    "QuipuQuantum": 21.22,
+    "Cash": 0.0
+  },
+  "110": {
+    "PapayaTech": 9.27,
+    "AxolotlWorks": 59.6,
+    "QuipuQuantum": 31.03,
+    "Cash": 0.1
+  },
+  "111": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "112": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "117": {
+    "PapayaTech": 37.46,
+    "AxolotlWorks": 35.42,
+    "QuipuQuantum": 27.11,
+    "Cash": 0.01
+  },
+  "121": {
+    "PapayaTech": 28.37,
+    "AxolotlWorks": 21.82,
+    "QuipuQuantum": 49.75,
+    "Cash": 0.06
+  },
+  "124": {
+    "PapayaTech": 32.6,
+    "AxolotlWorks": 34.36,
+    "QuipuQuantum": 32.96,
+    "Cash": 0.08
+  },
+  "127": {
+    "PapayaTech": 62.36,
+    "AxolotlWorks": 16.67,
+    "QuipuQuantum": 20.88,
+    "Cash": 0.09
+  },
+  "128": {
+    "PapayaTech": 21.28,
+    "AxolotlWorks": 37.21,
+    "QuipuQuantum": 41.5,
+    "Cash": 0.01
+  },
+  "129": {
+    "PapayaTech": 13.0,
+    "AxolotlWorks": 76.8,
+    "QuipuQuantum": 10.14,
+    "Cash": 0.06
+  },
+  "130": {
+    "PapayaTech": 32.31,
+    "AxolotlWorks": 33.82,
+    "QuipuQuantum": 33.81,
+    "Cash": 0.06
+  },
+  "140": {
+    "PapayaTech": 25.71,
+    "AxolotlWorks": 33.09,
+    "QuipuQuantum": 41.18,
+    "Cash": 0.02
+  },
+  "143": {
+    "PapayaTech": 94.92,
+    "AxolotlWorks": 3.82,
+    "QuipuQuantum": 1.23,
+    "Cash": 0.03
+  },
+  "301": {
+    "PapayaTech": 35.1,
+    "AxolotlWorks": 29.94,
+    "QuipuQuantum": 34.96,
+    "Cash": 0.0
+  },
+  "305": {
+    "PapayaTech": 27.03,
+    "AxolotlWorks": 34.19,
+    "QuipuQuantum": 38.7,
+    "Cash": 0.08
+  },
+  "306": {
+    "PapayaTech": 30.74,
+    "AxolotlWorks": 34.06,
+    "QuipuQuantum": 35.08,
+    "Cash": 0.12
+  },
+  "311": {
+    "PapayaTech": 0.0,
+    "AxolotlWorks": 0.0,
+    "QuipuQuantum": 100.0,
+    "Cash": 0.0
+  },
+  "313": {
+    "PapayaTech": 35.76,
+    "AxolotlWorks": 29.92,
+    "QuipuQuantum": 34.26,
+    "Cash": 0.06
+  },
+  "314": {
+    "PapayaTech": 99.84,
+    "AxolotlWorks": 0.0,
+    "QuipuQuantum": 0.0,
+    "Cash": 0.16
+  },
+  "317": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "320": {
+    "PapayaTech": 33.02,
+    "AxolotlWorks": 38.59,
+    "QuipuQuantum": 28.28,
+    "Cash": 0.11
+  },
+  "322": {
+    "PapayaTech": 15.4,
+    "AxolotlWorks": 72.32,
+    "QuipuQuantum": 12.2,
+    "Cash": 0.08
+  },
+  "325": {
+    "PapayaTech": 15.32,
+    "AxolotlWorks": 37.22,
+    "QuipuQuantum": 47.44,
+    "Cash": 0.02
+  },
+  "326": {
+    "PapayaTech": 13.33,
+    "AxolotlWorks": 74.1,
+    "QuipuQuantum": 12.54,
+    "Cash": 0.03
+  },
+  "331": {
+    "PapayaTech": 30.02,
+    "AxolotlWorks": 37.15,
+    "QuipuQuantum": 32.71,
+    "Cash": 0.12
+  },
+  "332": {
+    "PapayaTech": 27.85,
+    "AxolotlWorks": 42.36,
+    "QuipuQuantum": 29.78,
+    "Cash": 0.01
+  },
+  "333": {
+    "PapayaTech": 45.97,
+    "AxolotlWorks": 53.44,
+    "QuipuQuantum": 0.52,
+    "Cash": 0.07
+  },
+  "334": {
+    "PapayaTech": 44.18,
+    "AxolotlWorks": 28.46,
+    "QuipuQuantum": 27.27,
+    "Cash": 0.09
+  },
+  "337": {
+    "PapayaTech": 30.96,
+    "AxolotlWorks": 38.9,
+    "QuipuQuantum": 30.14,
+    "Cash": 0.0
+  },
+  "339": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "340": {
+    "PapayaTech": 27.63,
+    "AxolotlWorks": 41.44,
+    "QuipuQuantum": 30.86,
+    "Cash": 0.07
+  },
+  "341": {
+    "PapayaTech": 17.77,
+    "AxolotlWorks": 27.24,
+    "QuipuQuantum": 54.94,
+    "Cash": 0.05
+  },
+  "342": {
+    "PapayaTech": 42.95,
+    "AxolotlWorks": 21.25,
+    "QuipuQuantum": 35.75,
+    "Cash": 0.05
+  },
+  "402": {
+    "PapayaTech": 37.22,
+    "AxolotlWorks": 19.02,
+    "QuipuQuantum": 43.7,
+    "Cash": 0.06
+  },
+  "405": {
+    "PapayaTech": 27.81,
+    "AxolotlWorks": 43.22,
+    "QuipuQuantum": 28.91,
+    "Cash": 0.06
+  },
+  "407": {
+    "PapayaTech": 36.03,
+    "AxolotlWorks": 35.53,
+    "QuipuQuantum": 28.36,
+    "Cash": 0.08
+  },
+  "408": {
+    "PapayaTech": 22.29,
+    "AxolotlWorks": 57.97,
+    "QuipuQuantum": 19.67,
+    "Cash": 0.07
+  },
+  "409": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "410": {
+    "PapayaTech": 0.0,
+    "AxolotlWorks": 54.01,
+    "QuipuQuantum": 45.96,
+    "Cash": 0.03
+  },
+  "413": {
+    "PapayaTech": 24.28,
+    "AxolotlWorks": 47.03,
+    "QuipuQuantum": 28.67,
+    "Cash": 0.02
+  },
+  "417": {
+    "PapayaTech": 36.22,
+    "AxolotlWorks": 16.15,
+    "QuipuQuantum": 47.52,
+    "Cash": 0.11
+  },
+  "418": {
+    "PapayaTech": 38.97,
+    "AxolotlWorks": 24.02,
+    "QuipuQuantum": 36.92,
+    "Cash": 0.09
+  },
+  "422": {
+    "PapayaTech": 11.72,
+    "AxolotlWorks": 59.21,
+    "QuipuQuantum": 29.04,
+    "Cash": 0.03
+  },
+  "423": {
+    "PapayaTech": 27.32,
+    "AxolotlWorks": 27.08,
+    "QuipuQuantum": 45.56,
+    "Cash": 0.04
+  },
+  "424": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "426": {
+    "PapayaTech": 58.39,
+    "AxolotlWorks": 34.81,
+    "QuipuQuantum": 6.76,
+    "Cash": 0.04
+  },
+  "427": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "429": {
+    "PapayaTech": 35.01,
+    "AxolotlWorks": 38.52,
+    "QuipuQuantum": 26.47,
+    "Cash": 0.0
+  },
+  "430": {
+    "PapayaTech": 31.3,
+    "AxolotlWorks": 33.96,
+    "QuipuQuantum": 34.72,
+    "Cash": 0.02
+  },
+  "431": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "434": {
+    "PapayaTech": 0.46,
+    "AxolotlWorks": 64.1,
+    "QuipuQuantum": 35.43,
+    "Cash": 0.01
+  },
+  "436": {
+    "PapayaTech": 22.57,
+    "AxolotlWorks": 56.66,
+    "QuipuQuantum": 20.74,
+    "Cash": 0.03
+  },
+  "437": {
+    "PapayaTech": 24.58,
+    "AxolotlWorks": 43.31,
+    "QuipuQuantum": 32.04,
+    "Cash": 0.07
+  },
+  "438": {
+    "PapayaTech": 35.19,
+    "AxolotlWorks": 28.82,
+    "QuipuQuantum": 35.99,
+    "Cash": 0.0
+  },
+  "439": {
+    "PapayaTech": 40.12,
+    "AxolotlWorks": 14.19,
+    "QuipuQuantum": 45.6,
+    "Cash": 0.09
+  },
+  "440": {
+    "PapayaTech": 1.0,
+    "AxolotlWorks": 0.48,
+    "QuipuQuantum": 98.42,
+    "Cash": 0.1
+  },
+  "441": {
+    "PapayaTech": 67.52,
+    "AxolotlWorks": 4.42,
+    "QuipuQuantum": 28.02,
+    "Cash": 0.04
+  },
+  "442": {
+    "PapayaTech": 33.74,
+    "AxolotlWorks": 27.95,
+    "QuipuQuantum": 38.24,
+    "Cash": 0.07
+  },
+  "443": {
+    "PapayaTech": 32.84,
+    "AxolotlWorks": 36.45,
+    "QuipuQuantum": 30.6,
+    "Cash": 0.11
+  },
+  "501": {
+    "PapayaTech": 74.81,
+    "AxolotlWorks": 12.61,
+    "QuipuQuantum": 12.55,
+    "Cash": 0.03
+  },
+  "502": {
+    "PapayaTech": 27.8,
+    "AxolotlWorks": 35.1,
+    "QuipuQuantum": 36.99,
+    "Cash": 0.11
+  },
+  "510": {
+    "PapayaTech": 23.24,
+    "AxolotlWorks": 43.35,
+    "QuipuQuantum": 33.41,
+    "Cash": 0.0
+  },
+  "513": {
+    "PapayaTech": 84.49,
+    "AxolotlWorks": 12.5,
+    "QuipuQuantum": 2.95,
+    "Cash": 0.06
+  },
+  "517": {
+    "PapayaTech": 23.57,
+    "AxolotlWorks": 37.68,
+    "QuipuQuantum": 38.67,
+    "Cash": 0.08
+  },
+  "520": {
+    "PapayaTech": 27.3,
+    "AxolotlWorks": 43.46,
+    "QuipuQuantum": 29.09,
+    "Cash": 0.15
+  },
+  "522": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "524": {
+    "PapayaTech": 12.82,
+    "AxolotlWorks": 12.79,
+    "QuipuQuantum": 74.37,
+    "Cash": 0.02
+  },
+  "527": {
+    "PapayaTech": 41.64,
+    "AxolotlWorks": 28.36,
+    "QuipuQuantum": 29.9,
+    "Cash": 0.1
+  },
+  "529": {
+    "PapayaTech": 13.17,
+    "AxolotlWorks": 55.76,
+    "QuipuQuantum": 31.01,
+    "Cash": 0.06
+  },
+  "530": {
+    "PapayaTech": 22.64,
+    "AxolotlWorks": 43.34,
+    "QuipuQuantum": 33.97,
+    "Cash": 0.05
+  },
+  "536": {
+    "PapayaTech": 34.07,
+    "AxolotlWorks": 38.66,
+    "QuipuQuantum": 27.17,
+    "Cash": 0.1
+  },
+  "540": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "541": {
+    "PapayaTech": 0.0,
+    "AxolotlWorks": 0.0,
+    "QuipuQuantum": 99.89,
+    "Cash": 0.11
+  },
+  "542": {
+    "PapayaTech": 30.63,
+    "AxolotlWorks": 30.14,
+    "QuipuQuantum": 39.2,
+    "Cash": 0.03
+  },
+  "543": {
+    "PapayaTech": 41.97,
+    "AxolotlWorks": 48.53,
+    "QuipuQuantum": 9.47,
+    "Cash": 0.03
+  },
+  "601": {
+    "PapayaTech": 28.89,
+    "AxolotlWorks": 36.88,
+    "QuipuQuantum": 34.17,
+    "Cash": 0.06
+  },
+  "602": {
+    "PapayaTech": 33.48,
+    "AxolotlWorks": 26.79,
+    "QuipuQuantum": 39.65,
+    "Cash": 0.08
+  },
+  "603": {
+    "PapayaTech": 35.76,
+    "AxolotlWorks": 30.11,
+    "QuipuQuantum": 34.12,
+    "Cash": 0.01
+  },
+  "604": {
+    "PapayaTech": 33.03,
+    "AxolotlWorks": 34.26,
+    "QuipuQuantum": 32.57,
+    "Cash": 0.14
+  },
+  "605": {
+    "PapayaTech": 20.59,
+    "AxolotlWorks": 68.47,
+    "QuipuQuantum": 10.83,
+    "Cash": 0.11
+  },
+  "606": {
+    "PapayaTech": 35.99,
+    "AxolotlWorks": 34.38,
+    "QuipuQuantum": 29.51,
+    "Cash": 0.12
+  },
+  "607": {
+    "PapayaTech": 32.11,
+    "AxolotlWorks": 30.31,
+    "QuipuQuantum": 37.5,
+    "Cash": 0.08
+  },
+  "608": {
+    "PapayaTech": 26.62,
+    "AxolotlWorks": 13.99,
+    "QuipuQuantum": 59.39,
+    "Cash": 0.0
+  },
+  "609": {
+    "PapayaTech": 29.34,
+    "AxolotlWorks": 40.67,
+    "QuipuQuantum": 29.92,
+    "Cash": 0.07
+  },
+  "610": {
+    "PapayaTech": 28.3,
+    "AxolotlWorks": 35.58,
+    "QuipuQuantum": 36.07,
+    "Cash": 0.05
+  },
+  "611": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "612": {
+    "PapayaTech": 28.93,
+    "AxolotlWorks": 28.61,
+    "QuipuQuantum": 42.43,
+    "Cash": 0.03
+  },
+  "613": {
+    "PapayaTech": 36.44,
+    "AxolotlWorks": 33.92,
+    "QuipuQuantum": 29.61,
+    "Cash": 0.03
+  },
+  "614": {
+    "PapayaTech": 43.02,
+    "AxolotlWorks": 22.39,
+    "QuipuQuantum": 34.48,
+    "Cash": 0.11
+  },
+  "615": {
+    "PapayaTech": 25.94,
+    "AxolotlWorks": 24.52,
+    "QuipuQuantum": 49.44,
+    "Cash": 0.1
+  },
+  "616": {
+    "PapayaTech": 48.88,
+    "AxolotlWorks": 23.41,
+    "QuipuQuantum": 27.68,
+    "Cash": 0.03
+  },
+  "617": {
+    "PapayaTech": 23.77,
+    "AxolotlWorks": 50.0,
+    "QuipuQuantum": 26.15,
+    "Cash": 0.08
+  },
+  "618": {
+    "PapayaTech": 30.34,
+    "AxolotlWorks": 37.96,
+    "QuipuQuantum": 31.59,
+    "Cash": 0.11
+  },
+  "619": {
+    "PapayaTech": 31.28,
+    "AxolotlWorks": 29.05,
+    "QuipuQuantum": 39.55,
+    "Cash": 0.12
+  },
+  "620": {
+    "PapayaTech": 0.0,
+    "AxolotlWorks": 0.0,
+    "QuipuQuantum": 99.89,
+    "Cash": 0.11
+  },
+  "621": {
+    "PapayaTech": 40.98,
+    "AxolotlWorks": 58.96,
+    "QuipuQuantum": 0.0,
+    "Cash": 0.06
+  },
+  "622": {
+    "PapayaTech": 21.71,
+    "AxolotlWorks": 44.39,
+    "QuipuQuantum": 33.79,
+    "Cash": 0.11
+  },
+  "623": {
+    "PapayaTech": 40.89,
+    "AxolotlWorks": 31.21,
+    "QuipuQuantum": 27.88,
+    "Cash": 0.02
+  },
+  "624": {
+    "PapayaTech": 42.12,
+    "AxolotlWorks": 28.38,
+    "QuipuQuantum": 29.44,
+    "Cash": 0.06
+  },
+  "625": {
+    "PapayaTech": 33.28,
+    "AxolotlWorks": 32.81,
+    "QuipuQuantum": 33.82,
+    "Cash": 0.09
+  },
+  "626": {
+    "PapayaTech": 37.66,
+    "AxolotlWorks": 27.23,
+    "QuipuQuantum": 35.03,
+    "Cash": 0.08
+  },
+  "627": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "628": {
+    "PapayaTech": 28.46,
+    "AxolotlWorks": 36.28,
+    "QuipuQuantum": 35.24,
+    "Cash": 0.02
+  },
+  "629": {
+    "PapayaTech": 0.0,
+    "AxolotlWorks": 99.88,
+    "QuipuQuantum": 0.0,
+    "Cash": 0.12
+  },
+  "630": {
+    "PapayaTech": 44.3,
+    "AxolotlWorks": 12.84,
+    "QuipuQuantum": 42.86,
+    "Cash": 0.0
+  },
+  "631": {
+    "PapayaTech": 41.08,
+    "AxolotlWorks": 30.0,
+    "QuipuQuantum": 28.87,
+    "Cash": 0.05
+  },
+  "632": {
+    "PapayaTech": 18.9,
+    "AxolotlWorks": 39.92,
+    "QuipuQuantum": 41.07,
+    "Cash": 0.11
+  },
+  "700": {
+    "PapayaTech": 40.34,
+    "AxolotlWorks": 20.73,
+    "QuipuQuantum": 38.87,
+    "Cash": 0.06
+  },
+  "701": {
+    "PapayaTech": 25.23,
+    "AxolotlWorks": 34.14,
+    "QuipuQuantum": 40.58,
+    "Cash": 0.05
+  },
+  "702": {
+    "PapayaTech": 35.25,
+    "AxolotlWorks": 34.29,
+    "QuipuQuantum": 30.46,
+    "Cash": 0.0
+  },
+  "703": {
+    "PapayaTech": 28.98,
+    "AxolotlWorks": 32.09,
+    "QuipuQuantum": 38.91,
+    "Cash": 0.02
+  },
+  "704": {
+    "PapayaTech": 19.46,
+    "AxolotlWorks": 49.06,
+    "QuipuQuantum": 31.4,
+    "Cash": 0.08
+  },
+  "705": {
+    "PapayaTech": 40.55,
+    "AxolotlWorks": 21.44,
+    "QuipuQuantum": 37.92,
+    "Cash": 0.09
+  },
+  "706": {
+    "PapayaTech": 24.52,
+    "AxolotlWorks": 59.29,
+    "QuipuQuantum": 16.09,
+    "Cash": 0.1
+  },
+  "707": {
+    "PapayaTech": 41.83,
+    "AxolotlWorks": 30.46,
+    "QuipuQuantum": 27.69,
+    "Cash": 0.02
+  },
+  "708": {
+    "PapayaTech": 37.96,
+    "AxolotlWorks": 30.45,
+    "QuipuQuantum": 31.48,
+    "Cash": 0.11
+  },
+  "800": {
+    "PapayaTech": 38.79,
+    "AxolotlWorks": 29.48,
+    "QuipuQuantum": 31.71,
+    "Cash": 0.02
+  },
+  "801": {
+    "PapayaTech": 18.9,
+    "AxolotlWorks": 22.89,
+    "QuipuQuantum": 58.18,
+    "Cash": 0.03
+  },
+  "802": {
+    "PapayaTech": 40.32,
+    "AxolotlWorks": 32.39,
+    "QuipuQuantum": 27.21,
+    "Cash": 0.08
+  },
+  "803": {
+    "PapayaTech": 13.27,
+    "AxolotlWorks": 60.13,
+    "QuipuQuantum": 26.53,
+    "Cash": 0.07
+  },
+  "804": {
+    "PapayaTech": 41.68,
+    "AxolotlWorks": 35.91,
+    "QuipuQuantum": 22.34,
+    "Cash": 0.07
+  },
+  "805": {
+    "PapayaTech": 29.14,
+    "AxolotlWorks": 32.93,
+    "QuipuQuantum": 37.85,
+    "Cash": 0.08
+  },
+  "806": {
+    "PapayaTech": 37.03,
+    "AxolotlWorks": 35.76,
+    "QuipuQuantum": 27.12,
+    "Cash": 0.09
+  },
+  "807": {
+    "PapayaTech": 47.45,
+    "AxolotlWorks": 18.83,
+    "QuipuQuantum": 33.72,
+    "Cash": 0.0
+  },
+  "808": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "809": {
+    "PapayaTech": 32.1,
+    "AxolotlWorks": 32.15,
+    "QuipuQuantum": 35.75,
+    "Cash": 0.0
+  },
+  "810": {
+    "PapayaTech": 30.16,
+    "AxolotlWorks": 37.7,
+    "QuipuQuantum": 32.09,
+    "Cash": 0.05
+  },
+  "811": {
+    "PapayaTech": 33.83,
+    "AxolotlWorks": 34.78,
+    "QuipuQuantum": 31.28,
+    "Cash": 0.11
+  },
+  "812": {
+    "PapayaTech": 29.05,
+    "AxolotlWorks": 44.15,
+    "QuipuQuantum": 26.8,
+    "Cash": 0.0
+  },
+  "900": {
+    "PapayaTech": 33.22,
+    "AxolotlWorks": 36.76,
+    "QuipuQuantum": 29.93,
+    "Cash": 0.09
+  },
+  "901": {
+    "PapayaTech": 29.96,
+    "AxolotlWorks": 59.13,
+    "QuipuQuantum": 10.86,
+    "Cash": 0.05
+  },
+  "902": {
+    "PapayaTech": 34.7,
+    "AxolotlWorks": 36.55,
+    "QuipuQuantum": 28.73,
+    "Cash": 0.02
+  },
+  "903": {
+    "PapayaTech": 42.53,
+    "AxolotlWorks": 26.26,
+    "QuipuQuantum": 31.09,
+    "Cash": 0.12
+  },
+  "904": {
+    "PapayaTech": 28.8,
+    "AxolotlWorks": 51.39,
+    "QuipuQuantum": 19.78,
+    "Cash": 0.03
+  },
+  "905": {
+    "PapayaTech": 23.14,
+    "AxolotlWorks": 38.49,
+    "QuipuQuantum": 38.33,
+    "Cash": 0.04
+  },
+  "906": {
+    "PapayaTech": 32.29,
+    "AxolotlWorks": 34.07,
+    "QuipuQuantum": 33.55,
+    "Cash": 0.09
+  },
+  "907": {
+    "PapayaTech": 28.26,
+    "AxolotlWorks": 40.11,
+    "QuipuQuantum": 31.61,
+    "Cash": 0.02
+  },
+  "908": {
+    "PapayaTech": 30.59,
+    "AxolotlWorks": 25.0,
+    "QuipuQuantum": 44.4,
+    "Cash": 0.01
+  },
+  "909": {
+    "PapayaTech": 44.81,
+    "AxolotlWorks": 5.32,
+    "QuipuQuantum": 49.82,
+    "Cash": 0.05
+  },
+  "910": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "911": {
+    "PapayaTech": 26.31,
+    "AxolotlWorks": 32.19,
+    "QuipuQuantum": 41.43,
+    "Cash": 0.07
+  },
+  "912": {
+    "PapayaTech": 40.73,
+    "AxolotlWorks": 49.62,
+    "QuipuQuantum": 9.63,
+    "Cash": 0.02
+  },
+  "913": {
+    "PapayaTech": 33.33,
+    "AxolotlWorks": 33.33,
+    "QuipuQuantum": 33.33,
+    "Cash": 0.01
+  },
+  "914": {
+    "PapayaTech": 45.61,
+    "AxolotlWorks": 24.98,
+    "QuipuQuantum": 29.37,
+    "Cash": 0.04
+  },
+  "915": {
+    "PapayaTech": 40.38,
+    "AxolotlWorks": 41.43,
+    "QuipuQuantum": 18.18,
+    "Cash": 0.01
+  },
+  "916": {
+    "PapayaTech": 35.42,
+    "AxolotlWorks": 52.73,
+    "QuipuQuantum": 11.85,
+    "Cash": 0.0
+  },
+  "917": {
+    "PapayaTech": 41.24,
+    "AxolotlWorks": 33.89,
+    "QuipuQuantum": 24.79,
+    "Cash": 0.08
+  },
+  "918": {
+    "PapayaTech": 48.55,
+    "AxolotlWorks": 25.54,
+    "QuipuQuantum": 25.82,
+    "Cash": 0.09
+  },
+  "919": {
+    "PapayaTech": 33.88,
+    "AxolotlWorks": 39.7,
+    "QuipuQuantum": 26.38,
+    "Cash": 0.04
+  },
+  "920": {
+    "PapayaTech": 17.38,
+    "AxolotlWorks": 11.92,
+    "QuipuQuantum": 70.66,
+    "Cash": 0.04
+  },
+  "921": {
+    "PapayaTech": 38.79,
+    "AxolotlWorks": 30.52,
+    "QuipuQuantum": 30.68,
+    "Cash": 0.01
+  },
+  "922": {
+    "PapayaTech": 67.3,
+    "AxolotlWorks": 17.21,
+    "QuipuQuantum": 15.4,
+    "Cash": 0.09
+  },
+  "923": {
+    "PapayaTech": 29.46,
+    "AxolotlWorks": 35.67,
+    "QuipuQuantum": 34.83,
+    "Cash": 0.04
+  }
+}

@@ -1,0 +1,2 @@
+n_subjects,coverage_rate,mean_band_width,median_band_width,p90_band_width,mean_dist_to_band,median_dist_to_band,p90_dist_to_band,mean_dist_cond_outside,outside_rate,narrative_mean_abs_err_X,narrative_median_abs_err_X,narrative_in_band_rate,corr_width_ratio,corr_dist_ratio
+154,0.23376623376623376,9.48331168831169,4.695,24.185000000000006,17.06487012987013,11.145,45.258000000000024,22.271101694915252,0.7662337662337663,18.61103896103896,11.485,0.21428571428571427,-0.2644308457211127,0.29224938823174684

@@ -1,0 +1,12 @@
+Ground truth — Subject 605 (t=50)
+Prices: PapayaTech=$2.673797, AxolotlWorks=$9.009009, QuipuQuantum=$1.336898
+True spend (raw): PapayaTech=$1.336898, AxolotlWorks=$1.801802, QuipuQuantum=$96.390374
+Cash left (raw): $0.470925
+
+Rounded-to-cents JSON (recommended target for LLM evaluation):
+{
+  "PapayaTech": 1.34,
+  "AxolotlWorks": 1.8,
+  "QuipuQuantum": 96.39,
+  "Cash": 0.47
+}
